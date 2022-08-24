@@ -1,0 +1,38 @@
+{% assign category = site.categories.homepage %}
+{% assign post = category[2] %}
+<section class="slide fade kenBurns">
+	<div class="content">
+		<div class="container">
+			<div class="wrap top">
+				<div class="fix-10-12 toCenter">
+					{% for image in site.static_files %}
+						{% if image.path contains "img/homepage/slide1/app-icon" %}
+							<img class="margin-bottom-1 ae-1 fromCenter" src="{{ site.baseurl }}{{ image.path }}" alt="image" width="70" />
+						{% endif %}
+					{% endfor %}
+					<div class="ae-2">
+						<p class="hero">{{ post.app-name }}</p>
+					</div>
+					<h1 class="ae-3">{{ post.heading }}</h1>
+					<div class="ae-4">
+						{{ post.content }}
+					</div>
+				</div>
+				
+				{% for image in site.static_files %}
+					{% if image.path contains 'img/homepage/slide1/object' %}
+				<div class="fix-12-12 ae-5">
+					<img class="ipad-36" src="{{ site.baseurl }}{{ image.path }}" data-action="zoom" alt="iPad App" />
+				</div>
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	
+	{% for image in site.static_files %}
+		{% if image.path contains 'img/homepage/slide1/bg' %}
+	<div class="background" style="background-image:url({{ site.baseurl }}{{ image.path }})"></div>
+		{% endif %}
+	{% endfor %}
+</section>

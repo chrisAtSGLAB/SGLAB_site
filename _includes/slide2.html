@@ -1,0 +1,76 @@
+{% assign category = site.categories.homepage %}
+{% assign post = category[1] %}
+
+
+<section class="slide fade kenBurns">
+	<div class="content">
+		<div class="container">
+			<div class="wrap">
+
+				<div class="fix-12-12">
+					<ul class="grid">
+						<li class="col-6-12 left cell-33">
+							<h1 class="ae-2 fromLeft">{{ post.heading }}</h1>
+							<div class="ae-2 fromLeft">
+								{{ post.content }}
+							</div>
+							<ul class="tabs controller uppercase ae-3 fromCenter" data-slider-id="33-1">
+								{% for image in site.static_files %}
+									{% if image.path contains 'img/homepage/slide2/object1' %}
+								<li class="selected">{{ post.tab1-label }}</li>
+									{% endif %}
+								{% endfor %}
+								
+								{% for image in site.static_files %}
+									{% if image.path contains 'img/homepage/slide2/object1' %}
+								<li>{{ post.tab2-label }}</li>
+									{% endif %}
+								{% endfor %}
+								
+								{% for image in site.static_files %}
+									{% if image.path contains 'img/homepage/slide2/object1' %}
+								<li>{{ post.tab3-label }}</li>
+									{% endif %}
+								{% endfor %}
+							</ul>
+						</li>
+						<li class="col-6-12 left ae-4 fromRight">
+							<ul class="slider" data-slider-id="33-1">
+								{% for image in site.static_files %}
+									{% if image.path contains 'img/homepage/slide2/object1' %}
+								<li class="selected">
+									<img class="ipad-33" data-action="zoom" width="1200" src="{{ site.baseurl }}{{ image.path }}" />
+								</li>
+									{% endif %}
+								{% endfor %}
+								
+								{% for image in site.static_files %}
+									{% if image.path contains 'img/homepage/slide2/object2' %}
+								<li data-action="zoom">
+									<img class="ipad-33" data-action="zoom" width="1200" src="{{ site.baseurl }}{{ image.path }}" />
+								</li>
+									{% endif %}
+								{% endfor %}
+								
+								{% for image in site.static_files %}
+									{% if image.path contains 'img/homepage/slide2/object3' %}
+								<li data-action="zoom">
+									<img class="ipad-33" data-action="zoom" width="1200" src="{{ site.baseurl }}{{ image.path }}" />
+								</li>
+									{% endif %}
+								{% endfor %}
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+	{% for image in site.static_files %}
+		{% if image.path contains 'img/homepage/slide2/bg' %}
+	<div class="background" style="background-image:url({{ site.baseurl }}{{ image.path }})"></div>
+		{% endif %}
+	{% endfor %}
+</section>

@@ -15,7 +15,7 @@ Content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/).
 
 ## this is an h2
 
-Plain text format allows you to focus on your **content**. hello
+Plain text format allows you to focus on your **content**. hellos
 
 </div>
 
