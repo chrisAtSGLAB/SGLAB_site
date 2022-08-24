@@ -48,7 +48,7 @@ img { max-width: 100%; display: inline-block; }
 
 img.rounded { border-radius: 3px; }
 
-.slides { color: #fff; fill: #fff; font-family: "Source Sans Pro", sans-serif; background: #111; -webkit-font-smoothing: antialiased; text-rendering: optimizeSpeed; }
+.slides { color: #fff; fill: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; background: #111; -webkit-font-smoothing: antialiased; text-rendering: optimizeSpeed; }
 
 .safari.retina .slides { -webkit-font-smoothing: subpixel-antialiased; }
 
@@ -67,7 +67,7 @@ a.underline { text-decoration: underline; }
 
 a:hover { transition: 0.15s; opacity: 0.8; }
 
-h1, .h1 { font-size: 52px; line-height: 1.05; font-family: "Source Sans Pro", sans-serif; font-weight: 300; margin-bottom: 20px; letter-spacing: -0.036em; }
+h1, .h1 { font-size: 52px; line-height: 1.05; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 300; margin-bottom: 20px; letter-spacing: -0.036em; }
 
 h1.big, .h1.big { font-size: 70px; line-height: 1; }
 
@@ -77,7 +77,7 @@ h1.small, .h1.small { font-size: 46px; }
 
 h1.micro, .h1.micro { font-size: 34px; }
 
-h2, .h2 { font-size: 35px; line-height: 1.17; margin-bottom: 15px; font-family: "Source Sans Pro", sans-serif; font-weight: 400; }
+h2, .h2 { font-size: 35px; line-height: 1.17; margin-bottom: 15px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 400; }
 
 h2.uppercase, .h2.uppercase { letter-spacing: 0.2em !important; }
 
@@ -87,7 +87,7 @@ h2.micro, .h2.micro { font-size: 19px; }
 
 h2.huge, .h2.huge { font-size: 45px; }
 
-h3, .h3 { font-size: 22px; margin-bottom: 12px; font-family: "Source Sans Pro", sans-serif; font-weight: 600; }
+h3, .h3 { font-size: 22px; margin-bottom: 12px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 600; }
 
 h3.large, .h3.large { font-size: 32px; }
 
@@ -99,13 +99,13 @@ h3.micro, .h3.micro { font-size: 16px; }
 
 h3 + h1, h3 + .h1, .h3 + h1, .h3 + .h1 { margin-top: 30px; }
 
-h4, .h4 { font-size: 22px; font-family: "Source Sans Pro", sans-serif; margin-bottom: 10px; }
+h4, .h4 { font-size: 22px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; margin-bottom: 10px; }
 
 h4.small, .h4.small { font-size: 13px; }
 
 h4.micro, .h4.micro { font-size: 5px; }
 
-h5, .h5 { font-size: 19px; font-family: "Source Sans Pro", sans-serif; font-weight: 600; margin-bottom: 3px; }
+h5, .h5 { font-size: 19px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 600; margin-bottom: 3px; }
 
 p, .p { font-size: 24px; line-height: 1.385; margin-bottom: 30px; opacity: 0.8; }
 
@@ -1504,7 +1504,7 @@ html:not(.mobile) .navigation li:hover:after { opacity: 1; }
 @media (max-width: 1023px) { .parallaxMotion:not(.responsive) .parallaxElement, .parallaxMotion .parallaxElement:not(.responsive) { transform: none !important; } }
 
 /* End Effects */
-html { font-size: 6px; font-family: "Source Sans Pro", sans-serif; font-weight: 400; color: #303030; }
+html { font-size: 6px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 400; color: #303030; }
 
 @media (max-width: 550px) { html { font-size: 5px; } }
 
@@ -1514,7 +1514,7 @@ html { font-size: 6px; font-family: "Source Sans Pro", sans-serif; font-weight: 
 
 body { font-size: 16px; }
 
-.article .h1, .article h1, .article .h2, .article h2, .article .h3, .article h3, .article .h4, .article h4, .article .h5, .article h5, .article .h6, .article h6 { font-family: "Source Sans Pro", sans-serif; font-style: normal; font-weight: 600; letter-spacing: normal; opacity: 0.9; }
+.article .h1, .article h1, .article .h2, .article h2, .article .h3, .article h3, .article .h4, .article h4, .article .h5, .article h5, .article .h6, .article h6 { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-style: normal; font-weight: 600; letter-spacing: normal; opacity: 0.9; }
 
 .article .h1.ultraLight, .article h1.ultraLight, .article .h2.ultraLight, .article h2.ultraLight, .article .h3.ultraLight, .article h3.ultraLight, .article .h4.ultraLight, .article h4.ultraLight, .article .h5.ultraLight, .article h5.ultraLight, .article .h6.ultraLight, .article h6.ultraLight { font-weight: 200; }
 
