@@ -1,7 +1,9 @@
-<ul class="slide-5 grid fixedSpaces equal fromCenter">
+I"‰<ul class="slide-5 grid fixedSpaces equal fromCenter">
 <li class="col-4-12">
 <a href="#" class="box-70 ae-1" style="background-color:#BDD6D3;">
 <div class="thumbnail-70">
+
+
 
 
 
@@ -644,6 +646,8 @@
 <li class="col-4-12">
 <a href="#" class="box-70 ae-2" style="background-color:#C3CCDD;">
 <div class="thumbnail-70">
+
+
 
 
 
@@ -1398,6 +1402,8 @@
 
 
 
+
+
 <img class="wide" src="/assets/img/homepage/slide5/grid3/70-grid-3.png" alt="Image" />
 
 
@@ -1926,3 +1932,4 @@
 </a>
 </li>
 </ul>
+:ET
