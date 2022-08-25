@@ -50,15 +50,90 @@ https://designmodo.com/slides/
 //USEFUL CLASSES
 @import 'useful-classes';
 
-$bg: #444;
-$text: #fff;
+// $bg: #444;
+// $text: #fff;
 
-body {
-	color: $text;
-	background: $bg;
+
+
+// body {
+// 	color: $text;
+// 	background: $bg;
+// }
+// 
+// .container {
+// 	width: 600px;
+// 	margin: 0 auto;
+// }
+
+.slide-1 {
+	.ae-2 p {
+		@extend .hero;
+	}
 }
 
-.container {
-	width: 600px;
-	margin: 0 auto;
+.slide-4 {
+	&.list {
+				
+				p {
+					@extend .small;
+				}
+
+		
+		
+	}
 }
+
+.slide-5 {
+	.box-70 {		
+		.thumbnail-70 {
+			& > * {
+				@extend .wide;
+			}
+		}
+		.info-70 {
+			p:nth-child(1) {
+				@extend .category-70;
+				margin-top: 0;
+			}
+			
+			h3:nth:child(2) {
+				@extend .big;
+				@extend .title-70;
+			}
+			
+			p:nth-child(3) {
+				@extend .small;
+				@extend .equalElement;
+			}
+			
+			p:nth-child(4) {
+				@extend .button;
+				@extend .blue;
+				@extend .wide;
+				@extend .crop;
+			}
+		}
+		
+		&:hover {
+			.info-70 p:nth-child(4) {
+				@extend .button:hover;
+				color: #fff !important;
+			}	
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

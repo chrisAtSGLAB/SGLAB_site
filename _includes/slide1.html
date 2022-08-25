@@ -1,5 +1,5 @@
 {% assign category = site.categories.homepage %}
-{% assign post = category[2] %}
+{% assign post = category[4] %}
 <section class="slide fade kenBurns">
 	<div class="content">
 		<div class="container">
@@ -10,13 +10,9 @@
 							<img class="margin-bottom-1 ae-1 fromCenter" src="{{ site.baseurl }}{{ image.path }}" alt="image" width="70" />
 						{% endif %}
 					{% endfor %}
-					<div class="ae-2">
-						<p class="hero">{{ post.app-name }}</p>
-					</div>
-					<h1 class="ae-3">{{ post.heading }}</h1>
-					<div class="ae-4">
+					
 						{{ post.content }}
-					</div>
+					
 				</div>
 				
 				{% for image in site.static_files %}

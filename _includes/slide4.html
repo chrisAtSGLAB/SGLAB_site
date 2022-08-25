@@ -1,0 +1,40 @@
+{% assign category = site.categories.homepage %}
+{% assign post = category[1] %}
+
+<section class="slide fade kenBurns">
+	<div class="content">
+		<div class="container">
+			<div class="wrap">
+
+				<div class="fix-12-12 toCenter">
+					<div class="fix-10-12">
+						{% if post.hero-text %}
+						<div class="ae-1 fromTop">
+							<p class="hero margin-bottom-1">{{ post.hero-text }}</p>
+						</div>
+						{% endif %}
+						
+						{% if post.heading %}
+						<h1 class="ae-2 huge fromAbove">{{ post.heading }}</h1>
+						{% endif %}
+						
+						{% if post.button-label and post.button-url %}
+						<a href="{{ post.button-url }}" class="button big button-92 margin-top-4 blue ae-3">{{ post.button-label }}</a>
+						{% endif %}
+					</div>
+					
+					<div class="hr hr-92 ae-4"></div>
+					<ul class="slide-4 list grid fixedSpaces left margin-top-5">
+						{{ post.content }}
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	{% for image in site.static_files %}
+		{% if image.path contains 'img/homepage/slide4/bg' %}
+	<div class="background" style="background-image:url({{ site.baseurl }}{{ image.path }})"></div>
+		{% endif %}
+	{% endfor %}
+</section>

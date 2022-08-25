@@ -1,5 +1,5 @@
 {% assign category = site.categories.homepage %}
-{% assign post = category[0] %}
+{% assign post = category[2] %}
 
 <section class="slide fade kenBurns">
 	<div class="content">
@@ -8,10 +8,12 @@
 
 				<div class="fix-12-12">
 					<ul class="flex reverse">
+						
 						<li class="col-6-12 left box-73">
 							<h1 class="ae-2">{{ post.heading }}</h1>
 							{{ post.content }}
 						</li>
+						
 						{% for image in site.static_files %}
 							{% if image.path contains 'img/homepage/slide3/object' %}
 						<li class="col-6-12 left ae-1 fromAbove">
