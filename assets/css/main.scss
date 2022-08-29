@@ -123,11 +123,67 @@ https://designmodo.com/slides/
 	}
 }
 
+.support-content {
+	ul {
+		@extend .flex;
+		@extend .left;
+		@extend .margin-top-6;
+		
+		li {
+			@extend .col-6-12;
+			@extend .margin-bottom-1;
+			padding-left: 2%;
+			padding-right: 2%;
+			
+			p {
+				@extend .small;
+			}
+		}
+	}
+}
 
 
 
+.panel.top {
+	
+	// backdrop-filter: blur(10px);
+	// backdrop-filter: invert(80%);
+	// backdrop-filter: sepia(90%);
+	
+	background: rgba(0,0,0,0.3);
+	backdrop-filter: saturate(80%) blur(20px);
+	-webkit-backdrop-filter: saturate(80%) blur(20px);
+	
+	.home {
+		display: block;
+		font-size: 0;
+	}
+}
 
-
+.pad {
+	ul {
+		list-style: none;
+		li {
+			font-size: 22px;
+			line-height: 1.385;
+			opacity: 0.8;
+			margin-bottom: .75em;
+			
+			&:before {
+				content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+				color: red; /* Change the color */
+				font-weight: bold; /* If you want it to be bold */
+				display: inline-block; /* Needed to add space between the bullet and the text */ 
+				width: 1em; /* Also needed for space (tweak if needed) */
+				margin-left: -1em; /* Also needed for space (tweak if needed) */
+			}
+		}
+		
+		& + h2 {
+			margin-top: 60px;
+		}
+	}
+}
 
 
 
