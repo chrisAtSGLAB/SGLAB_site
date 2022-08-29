@@ -1,4 +1,8 @@
-name: My Jekyll Website
+name: Cimtops SG LAB
+
+mailto-careers: mailto:careers@cimtops-sglba.com?subject=Interested%20in%20iOS%20Developer%20Position&body=Hi%2C%0D%0A%0D%0AMy%20I'm%20%5BFName%5D%20%5BLName%5D%0D%0A%0D%0A(Don't%20forget%20to%20attach%20your%20resum%C3%A9)
+
+mailto-contact: mailto:contact@cimtops-sglba.com?subject=%5BConcern%5D%20I%20just%20want%20to%20(your%20concern)&body=Hi%2C%0D%0A%0D%0AMy%20I'm%20%5BFName%5D%20%5BLName%5D%0D%0A%0D%0A
 
 sass:
   style: compact # possible values: nested expanded compact compressed

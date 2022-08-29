@@ -155,7 +155,7 @@ https://designmodo.com/slides/
 	-webkit-backdrop-filter: saturate(80%) blur(20px);
 	
 	.home {
-		display: block;
+		display: inline-block;
 		font-size: 0;
 	}
 }
@@ -185,7 +185,39 @@ https://designmodo.com/slides/
 	}
 }
 
+.privacy-policy {
+	ol, li {
+	  list-style-type: decimal;
+	  // counter-reset: my-awesome-counter;
+	}
 
+	
+	cite {
+		font-size: .8em;
+	}
+	
+	cite + cite {
+		display: block;
+	}
+}
+
+.about {
+	.col-1-12 {
+		.box-70 {
+			max-width: initial;
+			@media (max-width: 1023px) {
+				max-width: 400px;	
+			}
+			
+			text-align: initial;
+			
+			.info-70 {
+				padding: 40px 30px 10px;
+			}
+		}
+		
+	}
+}
 
 
 

@@ -1,5 +1,5 @@
-{% assign category = site.categories.homepage %}
-{% assign post = category[2] %}
+{% for post in site.categories.homepage %}
+{% if post.title == "Notator Cloud Feature" %}
 
 <section class="slide fade kenBurns">
 	<div class="content">
@@ -53,3 +53,5 @@
 		{% endif %}
 	{% endfor %}
 </section>
+{% endif %}
+{% endfor %}

@@ -1,5 +1,9 @@
-{% assign category = site.categories.homepage %}
-{% assign post = category[4] %}
+<!-- {% assign category = site.categories.homepage %}
+{% assign post = category[3] %} -->
+
+{% for post in site.categories.homepage %}
+{% if post.title == "Notator Intro" %}
+
 <section class="slide fade kenBurns" data-name="home">
 	<div class="content">
 		<div class="container">
@@ -32,3 +36,8 @@
 		{% endif %}
 	{% endfor %}
 </section>
+
+{% endif %}
+
+{% endfor %}
+

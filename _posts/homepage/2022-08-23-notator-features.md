@@ -1,5 +1,5 @@
 ---
-title:  "slide 2"
+title:  "Notator Features"
 date:   2017-08-22 13:03:53 +0800
 categories: homepage
 heading: Reinvent yourself

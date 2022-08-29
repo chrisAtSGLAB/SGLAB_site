@@ -3378,7 +3378,7 @@ form input.input-96[type="text"], form input.input-96[type="name"], form input.i
 
 .panel.top { background: rgba(0, 0, 0, 0.3); backdrop-filter: saturate(80%) blur(20px); -webkit-backdrop-filter: saturate(80%) blur(20px); }
 
-.panel.top .home { display: block; font-size: 0; }
+.panel.top .home { display: inline-block; font-size: 0; }
 
 .pad ul { list-style: none; }
 
@@ -3387,5 +3387,17 @@ form input.input-96[type="text"], form input.input-96[type="name"], form input.i
 .pad ul li:before { content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */ color: red; /* Change the color */ font-weight: bold; /* If you want it to be bold */ display: inline-block; /* Needed to add space between the bullet and the text */ width: 1em; /* Also needed for space (tweak if needed) */ margin-left: -1em; /* Also needed for space (tweak if needed) */ }
 
 .pad ul + h2 { margin-top: 60px; }
+
+.privacy-policy ol, .privacy-policy li { list-style-type: decimal; }
+
+.privacy-policy cite { font-size: .8em; }
+
+.privacy-policy cite + cite { display: block; }
+
+.about .col-1-12 .box-70 { max-width: initial; text-align: initial; }
+
+@media (max-width: 1023px) { .about .col-1-12 .box-70 { max-width: 400px; } }
+
+.about .col-1-12 .box-70 .info-70 { padding: 40px 30px 10px; }
 
 /*# sourceMappingURL=main.css.map */

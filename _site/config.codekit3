@@ -9,18 +9,6 @@
   ],
   "creatorBuild" : "34365",
   "files" : {
-    "\/assets\/css\/main-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/css\/main-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/assets\/css\/main.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1495,19 +1483,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/img\/img-58.jpg" : {
-      "ft" : 16384,
-      "iS" : 183745,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/img\/img-58.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/assets\/img\/img-60.jpg" : {
       "ft" : 16384,
       "iS" : 91804,
@@ -2609,6 +2584,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/privacy-policy\/bg\/img-58.jpg" : {
+      "ft" : 16384,
+      "iS" : 183745,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/privacy-policy\/bg\/img-58.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4108,44 +4096,36 @@
       "oAP" : "\/faq\/index.html",
       "oF" : 0
     },
-    "\/homepage\/2017\/08\/22\/slide1.html" : {
+    "\/homepage\/2017\/08\/22\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/homepage\/2017\/08\/22\/slide1.html",
+      "oAP" : "\/homepage\/2017\/08\/22\/about.html",
       "oF" : 0
     },
-    "\/homepage\/2017\/08\/22\/slide2.html" : {
+    "\/homepage\/2017\/08\/22\/notator-cloud-feature.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/homepage\/2017\/08\/22\/slide2.html",
+      "oAP" : "\/homepage\/2017\/08\/22\/notator-cloud-feature.html",
       "oF" : 0
     },
-    "\/homepage\/2017\/08\/22\/slide3.html" : {
+    "\/homepage\/2017\/08\/22\/notator-features.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/homepage\/2017\/08\/22\/slide3.html",
+      "oAP" : "\/homepage\/2017\/08\/22\/notator-features.html",
       "oF" : 0
     },
-    "\/homepage\/2017\/08\/22\/slide4.html" : {
+    "\/homepage\/2017\/08\/22\/notator-intro.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/homepage\/2017\/08\/22\/slide4.html",
-      "oF" : 0
-    },
-    "\/homepage\/2017\/08\/22\/slide5.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/homepage\/2017\/08\/22\/slide5.html",
+      "oAP" : "\/homepage\/2017\/08\/22\/notator-intro.html",
       "oF" : 0
     },
     "\/index.html" : {
@@ -4164,12 +4144,12 @@
       "oAP" : "\/ios-developer\/index.html",
       "oF" : 0
     },
-    "\/support\/notator\/2017\/08\/22\/post1.html" : {
+    "\/privacy-policy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/support\/notator\/2017\/08\/22\/post1.html",
+      "oAP" : "\/privacy-policy\/index.html",
       "oF" : 0
     },
     "\/support\/notator\/faq\/2017\/08\/22\/can-we-import-existing-excel-files-into-i-Reporter-or-do-we-have-to-make-a-new-file.html" : {

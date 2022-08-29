@@ -1,6 +1,19 @@
-I"�<ul class="slide-5 grid fixedSpaces equal fromCenter">
+I"4<div class="col-1-12">
+<div class="box-70 ae-1">
+
+<div class="info-70">
+
+      <h3 id="our-address">Our Address</h3>
+
+      <p>105 Cecil Street<br /> #24-02 The Octagon<br />
+Singapore 069534 </p>
+    </div>
+</div>
+</div>
+
+<ul class="slide-5 grid fixedSpaces equal fromCenter">
 <li class="col-4-12">
-<a href="#" class="box-70 ae-1" style="background-color:#BDD6D3;">
+<a href="mailto:contact@cimtops-sglba.com?subject=%5BConcern%5D%20I%20just%20want%20to%20(your%20concern)&amp;body=Hi%2C%0D%0A%0D%0AMy%20I'm%20%5BFName%5D%20%5BLName%5D%0D%0A%0D%0A" class="box-70 ae-3" style="background-color:#BDD6D3;">
 <div class="thumbnail-70">
 
 
@@ -633,8 +646,6 @@
 
 
 
-
-
 </div>
 <div class="info-70">
 
@@ -650,7 +661,7 @@
 </a>
 </li>
 <li class="col-4-12">
-<a href="/faq/" class="box-70 ae-2" style="background-color:#C3CCDD;">
+<a href="/faq/" class="box-70 ae-4" style="background-color:#C3CCDD;">
 <div class="thumbnail-70">
 
 
@@ -1283,8 +1294,6 @@
 
 
 
-
-
 </div>
 <div class="info-70">
 
@@ -1300,7 +1309,7 @@
 </a>
 </li>
 <li class="col-4-12">
-<a href="" class="box-70 ae-3" style="background-color:#D9D5C5;">
+<a href="/ios-developer/" class="box-70 ae-5" style="background-color:#D9D5C5;">
 <div class="thumbnail-70">
 
 
@@ -1417,8 +1426,6 @@
 
 
 <img class="wide" src="/assets/img/homepage/slide5/grid3/70-grid-3.png" alt="Image" />
-
-
 
 
 

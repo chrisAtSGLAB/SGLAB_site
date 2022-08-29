@@ -1,5 +1,5 @@
 ---
-title:  "slide 1"
+title:  "Notator Intro"
 date:   2017-08-22 13:03:53 +0800
 categories: homepage
 app-name: "Notator"
@@ -13,7 +13,7 @@ Notator
 </div>
 <div class="ae-3" markdown="1">
 
-# Annotate anything fdkjsfgdsjkagf djkshjdshgfkjdsa
+# Annotate anything
 
 </div>
 <div class="ae-4" markdown="1">
