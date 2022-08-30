@@ -34,7 +34,7 @@
 	
 	{% for image in site.static_files %}
 		{% if image.path contains 'img/homepage/notator-intro/bg' %}
-	<div class="background" style="background-image:url({{ site.baseurl }}{{ image.path }})"></div>
+	<div class="background" style="background-image:url({{ image.path }})"></div>
 		{% endif %}
 	{% endfor %}
 </section>
