@@ -1,0 +1,39 @@
+.notator-cloud-feature {
+	// Note: removed anchor tag - effect should have no more hover state
+	ul.grid-73 {
+		// retains the borders on hover
+		&:hover {
+			.cell-73:after {
+				opacity: 1;
+			}
+			
+			li:last-child {
+				.cell-73:after {
+					opacity: 0;
+				}	
+			}
+		}
+
+		li div {
+			&.cell-73 {
+				// retain default styles on hover
+				&:hover {
+					background: inherit;
+					color: inherit;
+					opacity: 1;
+					box-shadow: none;
+				}
+			}
+
+			p {
+				&:first-child {
+					margin: 0;
+				}
+
+				&:last-child {
+					@extend .small;
+				}
+			}
+		}
+	}
+}

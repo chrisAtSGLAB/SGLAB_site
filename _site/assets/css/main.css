@@ -73,7 +73,7 @@ h1.big, .h1.big, .about .box-70 .info-70 h3.h1:nth:child(2) { font-size: 70px; l
 
 h1.huge, .h1.huge { font-size: 100px; line-height: 1; letter-spacing: -0.04em; margin-bottom: 40px; }
 
-h1.small, .h1.small, .notator-cloud-feature ul.grid-73 li div p.h1:last-child, .support-content ul li p.h1, .about .box-70 .info-70 p.h1:nth-child(3) { font-size: 46px; }
+h1.small, .h1.small, .support-content ul li p.h1, .about .box-70 .info-70 p.h1:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h1:last-child { font-size: 46px; }
 
 h1.micro, .h1.micro { font-size: 34px; }
 
@@ -81,7 +81,7 @@ h2, .h2 { font-size: 35px; line-height: 1.17; margin-bottom: 15px; font-family: 
 
 h2.uppercase, .h2.uppercase { letter-spacing: 0.2em !important; }
 
-h2.small, .h2.small, .notator-cloud-feature ul.grid-73 li div p.h2:last-child, .support-content ul li p.h2, .about .box-70 .info-70 p.h2:nth-child(3) { font-size: 23px; }
+h2.small, .h2.small, .support-content ul li p.h2, .about .box-70 .info-70 p.h2:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h2:last-child { font-size: 23px; }
 
 h2.micro, .h2.micro { font-size: 19px; }
 
@@ -93,7 +93,7 @@ h3.large, .h3.large { font-size: 32px; }
 
 h3.big, .about .box-70 .info-70 h3:nth:child(2), .h3.big { font-size: 24px; }
 
-h3.small, .h3.small, .notator-cloud-feature ul.grid-73 li div p.h3:last-child, .support-content ul li p.h3, .about .box-70 .info-70 p.h3:nth-child(3) { font-size: 20px; }
+h3.small, .h3.small, .support-content ul li p.h3, .about .box-70 .info-70 p.h3:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h3:last-child { font-size: 20px; }
 
 h3.micro, .h3.micro { font-size: 16px; }
 
@@ -101,7 +101,7 @@ h3 + h1, h3 + .h1, .h3 + h1, .h3 + .h1 { margin-top: 30px; }
 
 h4, .h4 { font-size: 22px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; margin-bottom: 10px; }
 
-h4.small, .h4.small, .notator-cloud-feature ul.grid-73 li div p.h4:last-child, .support-content ul li p.h4, .about .box-70 .info-70 p.h4:nth-child(3) { font-size: 13px; }
+h4.small, .h4.small, .support-content ul li p.h4, .about .box-70 .info-70 p.h4:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h4:last-child { font-size: 13px; }
 
 h4.micro, .h4.micro { font-size: 5px; }
 
@@ -113,7 +113,7 @@ p.hero, .notator-intro .post-content .ae-2 p, .p.hero { font-size: 36px; line-he
 
 p.large, .p.large { font-size: 32px; line-height: 1.4; }
 
-p.small, .notator-cloud-feature ul.grid-73 li div p:last-child, .support-content ul li p, .about .box-70 .info-70 p:nth-child(3), .p.small { font-size: 22px; line-height: 1.36; margin-bottom: 20px; }
+p.small, .support-content ul li p, .about .box-70 .info-70 p:nth-child(3), .notator-cloud-feature ul.grid-73 li div p:last-child, .p.small { font-size: 22px; line-height: 1.36; margin-bottom: 20px; }
 
 p.tiny, .p.tiny { font-size: 20px; line-height: 1.29441; margin-bottom: 20px; }
 
@@ -125,11 +125,11 @@ p + h2, p + .h2, .p + h2, .p + .h2 { margin-top: 60px; }
 
 small { font-size: 17px; line-height: 1.3; }
 
-small .small, small .notator-cloud-feature ul.grid-73 li div p:last-child, .notator-cloud-feature ul.grid-73 li div small p:last-child, small .support-content ul li p, .support-content ul li small p, small .about .box-70 .info-70 p:nth-child(3), .about .box-70 .info-70 small p:nth-child(3) { font-size: 14px; line-height: 1.28; }
+small .small, small .support-content ul li p, .support-content ul li small p, small .about .box-70 .info-70 p:nth-child(3), .about .box-70 .info-70 small p:nth-child(3), small .notator-cloud-feature ul.grid-73 li div p:last-child, .notator-cloud-feature ul.grid-73 li div small p:last-child { font-size: 14px; line-height: 1.28; }
 
 .uppercase { text-transform: uppercase !important; letter-spacing: 0.15em !important; text-indent: 0.1em !important; font-weight: 700 !important; }
 
-@media (max-width: 767px) { h1, .h1, h1.huge, .h1.huge, h1.big, .h1.big, .about .box-70 .info-70 h3.h1:nth:child(2) { font-size: 52px; margin-bottom: 20px; } p.hero, .notator-intro .post-content .ae-2 p { font-size: 32px; } h1.small, .h1.small, .notator-cloud-feature ul.grid-73 li div p.h1:last-child, .support-content ul li p.h1, .about .box-70 .info-70 p.h1:nth-child(3) { font-size: 40px; } .mobileCrop { margin: 0 !important; } .mobileCropBottom { margin-bottom: 0 !important; } .mobileCropTop { margin-top: 0 !important; } .mobileCropLeft { margin-left: 0 !important; } .mobileCropRight { margin-right: 0 !important; } }
+@media (max-width: 767px) { h1, .h1, h1.huge, .h1.huge, h1.big, .h1.big, .about .box-70 .info-70 h3.h1:nth:child(2) { font-size: 52px; margin-bottom: 20px; } p.hero, .notator-intro .post-content .ae-2 p { font-size: 32px; } h1.small, .h1.small, .support-content ul li p.h1, .about .box-70 .info-70 p.h1:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h1:last-child { font-size: 40px; } .mobileCrop { margin: 0 !important; } .mobileCropBottom { margin-bottom: 0 !important; } .mobileCropTop { margin-top: 0 !important; } .mobileCropLeft { margin-left: 0 !important; } .mobileCropRight { margin-right: 0 !important; } }
 
 @media (max-width: 319px) { h1.huge, .h1.huge, h1.big, .h1.big, .about .box-70 .info-70 h3.h1:nth:child(2) { font-size: 50px; } }
 
@@ -138,7 +138,7 @@ small .small, small .notator-cloud-feature ul.grid-73 li div p:last-child, .nota
 
 .slide .button, .slide .about .box-70 .info-70 p:nth-child(4), .about .box-70 .info-70 .slide p:nth-child(4), .popup .button, .popup .about .box-70 .info-70 p:nth-child(4), .about .box-70 .info-70 .popup p:nth-child(4) { margin-left: 7px; margin-right: 7px; }
 
-.slide .button.small, .slide .notator-cloud-feature ul.grid-73 li div p.button:last-child, .notator-cloud-feature ul.grid-73 li div .slide p.button:last-child, .slide .support-content ul li p.button, .support-content ul li .slide p.button, .slide .about .box-70 .info-70 p.small:nth-child(4), .slide .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p:nth-child(4):last-child, .notator-cloud-feature ul.grid-73 li div .slide .about .box-70 .info-70 p:nth-child(4):last-child, .slide .about .box-70 .info-70 .support-content ul li p:nth-child(4), .support-content ul li .slide .about .box-70 .info-70 p:nth-child(4), .about .box-70 .info-70 .slide p.small:nth-child(4), .about .box-70 .info-70 .slide .notator-cloud-feature ul.grid-73 li div p:nth-child(4):last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 .slide p:nth-child(4):last-child, .about .box-70 .info-70 .slide .support-content ul li p:nth-child(4), .support-content ul li .about .box-70 .info-70 .slide p:nth-child(4), .slide .about .box-70 .info-70 p.button:nth-child(3), .slide .about .box-70 .info-70 p:nth-child(3):nth-child(4), .about .box-70 .info-70 .slide p.button:nth-child(3), .about .box-70 .info-70 .slide p:nth-child(3):nth-child(4), .popup .button.small, .popup .notator-cloud-feature ul.grid-73 li div p.button:last-child, .notator-cloud-feature ul.grid-73 li div .popup p.button:last-child, .popup .support-content ul li p.button, .support-content ul li .popup p.button, .popup .about .box-70 .info-70 p.small:nth-child(4), .popup .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p:nth-child(4):last-child, .notator-cloud-feature ul.grid-73 li div .popup .about .box-70 .info-70 p:nth-child(4):last-child, .popup .about .box-70 .info-70 .support-content ul li p:nth-child(4), .support-content ul li .popup .about .box-70 .info-70 p:nth-child(4), .about .box-70 .info-70 .popup p.small:nth-child(4), .about .box-70 .info-70 .popup .notator-cloud-feature ul.grid-73 li div p:nth-child(4):last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 .popup p:nth-child(4):last-child, .about .box-70 .info-70 .popup .support-content ul li p:nth-child(4), .support-content ul li .about .box-70 .info-70 .popup p:nth-child(4), .popup .about .box-70 .info-70 p.button:nth-child(3), .popup .about .box-70 .info-70 p:nth-child(3):nth-child(4), .about .box-70 .info-70 .popup p.button:nth-child(3), .about .box-70 .info-70 .popup p:nth-child(3):nth-child(4) { margin-left: 4px; margin-right: 4px; }
+.slide .button.small, .slide .support-content ul li p.button, .support-content ul li .slide p.button, .slide .about .box-70 .info-70 p.small:nth-child(4), .slide .about .box-70 .info-70 .support-content ul li p:nth-child(4), .support-content ul li .slide .about .box-70 .info-70 p:nth-child(4), .about .box-70 .info-70 .slide p.small:nth-child(4), .about .box-70 .info-70 .slide .support-content ul li p:nth-child(4), .support-content ul li .about .box-70 .info-70 .slide p:nth-child(4), .slide .about .box-70 .info-70 p.button:nth-child(3), .slide .about .box-70 .info-70 p:nth-child(3):nth-child(4), .about .box-70 .info-70 .slide p.button:nth-child(3), .about .box-70 .info-70 .slide p:nth-child(3):nth-child(4), .slide .notator-cloud-feature ul.grid-73 li div p.button:last-child, .slide .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p:last-child:nth-child(4), .about .box-70 .info-70 .slide .notator-cloud-feature ul.grid-73 li div p:last-child:nth-child(4), .notator-cloud-feature ul.grid-73 li div .slide p.button:last-child, .notator-cloud-feature ul.grid-73 li div .slide .about .box-70 .info-70 p:last-child:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div .slide p:last-child:nth-child(4), .popup .button.small, .popup .support-content ul li p.button, .support-content ul li .popup p.button, .popup .about .box-70 .info-70 p.small:nth-child(4), .popup .about .box-70 .info-70 .support-content ul li p:nth-child(4), .support-content ul li .popup .about .box-70 .info-70 p:nth-child(4), .about .box-70 .info-70 .popup p.small:nth-child(4), .about .box-70 .info-70 .popup .support-content ul li p:nth-child(4), .support-content ul li .about .box-70 .info-70 .popup p:nth-child(4), .popup .about .box-70 .info-70 p.button:nth-child(3), .popup .about .box-70 .info-70 p:nth-child(3):nth-child(4), .about .box-70 .info-70 .popup p.button:nth-child(3), .about .box-70 .info-70 .popup p:nth-child(3):nth-child(4), .popup .notator-cloud-feature ul.grid-73 li div p.button:last-child, .popup .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p:last-child:nth-child(4), .about .box-70 .info-70 .popup .notator-cloud-feature ul.grid-73 li div p:last-child:nth-child(4), .notator-cloud-feature ul.grid-73 li div .popup p.button:last-child, .notator-cloud-feature ul.grid-73 li div .popup .about .box-70 .info-70 p:last-child:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div .popup p:last-child:nth-child(4) { margin-left: 4px; margin-right: 4px; }
 
 .button .material-icons, .about .box-70 .info-70 p:nth-child(4) .material-icons { vertical-align: bottom; margin-right: 11px; }
 
@@ -190,31 +190,31 @@ small .small, small .notator-cloud-feature ul.grid-73 li div p:last-child, .nota
 
 .button.stroke.uppercase svg, .about .box-70 .info-70 p.stroke.uppercase:nth-child(4) svg { width: 19px; height: 19px; }
 
-.button.stroke.uppercase.small, .notator-cloud-feature ul.grid-73 li div p.uppercase:last-child, .support-content ul li p.uppercase, .about .box-70 .info-70 p.stroke.uppercase.small:nth-child(4), .about .box-70 .info-70 .support-content ul li p.uppercase:nth-child(4), .support-content ul li .about .box-70 .info-70 p.uppercase:nth-child(4), .about .box-70 .info-70 p.uppercase:nth-child(3) { padding-top: 9px; padding-bottom: 10px; padding-left: 23px; padding-right: 23px; }
+.button.stroke.uppercase.small, .support-content ul li p.uppercase, .about .box-70 .info-70 p.stroke.uppercase.small:nth-child(4), .about .box-70 .info-70 .support-content ul li p.uppercase:nth-child(4), .support-content ul li .about .box-70 .info-70 p.uppercase:nth-child(4), .about .box-70 .info-70 p.uppercase:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.uppercase:last-child { padding-top: 9px; padding-bottom: 10px; padding-left: 23px; padding-right: 23px; }
 
-.button.stroke.small, .notator-cloud-feature ul.grid-73 li div p.stroke:last-child, .support-content ul li p.stroke, .about .box-70 .info-70 p.stroke.small:nth-child(4), .about .box-70 .info-70 .support-content ul li p.stroke:nth-child(4), .support-content ul li .about .box-70 .info-70 p.stroke:nth-child(4), .about .box-70 .info-70 p.stroke:nth-child(3) { border: 1px solid; padding-top: 8px; padding-bottom: 8px; }
+.button.stroke.small, .support-content ul li p.stroke, .about .box-70 .info-70 p.stroke.small:nth-child(4), .about .box-70 .info-70 .support-content ul li p.stroke:nth-child(4), .support-content ul li .about .box-70 .info-70 p.stroke:nth-child(4), .about .box-70 .info-70 p.stroke:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.stroke:last-child { border: 1px solid; padding-top: 8px; padding-bottom: 8px; }
 
 @media (min-width: 768px) { .button.stroke.big, .about .box-70 .info-70 p.stroke.big:nth-child(4), .about .box-70 .info-70 h3.stroke:nth:child(2) { padding-top: 17px; padding-bottom: 21px; } .button.stroke.big.uppercase, .about .box-70 .info-70 p.stroke.big.uppercase:nth-child(4), .about .box-70 .info-70 h3.stroke.uppercase:nth:child(2) { padding-top: 20px; padding-bottom: 23px; } }
 
 .button.stroke:hover, .about .box-70:hover .info-70 p.stroke:nth-child(4), .about .box-70 .info-70 p.stroke:hover:nth-child(4) { box-shadow: inset 0 -100px 0 rgba(41, 41, 41, 0.05), 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.1); }
 
-.button.small, .notator-cloud-feature ul.grid-73 li div p.button:last-child, .support-content ul li p.button, .about .box-70 .info-70 p.small:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p:nth-child(4):last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p:nth-child(4):last-child, .about .box-70 .info-70 .support-content ul li p:nth-child(4), .support-content ul li .about .box-70 .info-70 p:nth-child(4), .about .box-70 .info-70 p.button:nth-child(3), .about .box-70 .info-70 p:nth-child(3):nth-child(4) { font-size: 17px; font-weight: 600; padding: 9px 14px 9px; }
+.button.small, .support-content ul li p.button, .about .box-70 .info-70 p.small:nth-child(4), .about .box-70 .info-70 .support-content ul li p:nth-child(4), .support-content ul li .about .box-70 .info-70 p:nth-child(4), .about .box-70 .info-70 p.button:nth-child(3), .about .box-70 .info-70 p:nth-child(3):nth-child(4), .notator-cloud-feature ul.grid-73 li div p.button:last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p:last-child:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p:last-child:nth-child(4) { font-size: 17px; font-weight: 600; padding: 9px 14px 9px; }
 
-.button.small .material-icons, .notator-cloud-feature ul.grid-73 li div p.button:last-child .material-icons, .support-content ul li p.button .material-icons, .about .box-70 .info-70 p.small:nth-child(4) .material-icons, .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p:nth-child(4):last-child .material-icons, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p:nth-child(4):last-child .material-icons, .about .box-70 .info-70 .support-content ul li p:nth-child(4) .material-icons, .support-content ul li .about .box-70 .info-70 p:nth-child(4) .material-icons, .about .box-70 .info-70 p.button:nth-child(3) .material-icons, .about .box-70 .info-70 p:nth-child(3):nth-child(4) .material-icons { vertical-align: bottom; position: relative; font-size: 20px; margin-right: 8px; bottom: 1px; }
+.button.small .material-icons, .support-content ul li p.button .material-icons, .about .box-70 .info-70 p.small:nth-child(4) .material-icons, .about .box-70 .info-70 .support-content ul li p:nth-child(4) .material-icons, .support-content ul li .about .box-70 .info-70 p:nth-child(4) .material-icons, .about .box-70 .info-70 p.button:nth-child(3) .material-icons, .about .box-70 .info-70 p:nth-child(3):nth-child(4) .material-icons, .notator-cloud-feature ul.grid-73 li div p.button:last-child .material-icons, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p:last-child:nth-child(4) .material-icons, .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p:last-child:nth-child(4) .material-icons { vertical-align: bottom; position: relative; font-size: 20px; margin-right: 8px; bottom: 1px; }
 
-.button.small .material-icons.right, .notator-cloud-feature ul.grid-73 li div p.button:last-child .material-icons.right, .support-content ul li p.button .material-icons.right, .about .box-70 .info-70 p.small:nth-child(4) .material-icons.right, .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p:nth-child(4):last-child .material-icons.right, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p:nth-child(4):last-child .material-icons.right, .about .box-70 .info-70 .support-content ul li p:nth-child(4) .material-icons.right, .support-content ul li .about .box-70 .info-70 p:nth-child(4) .material-icons.right, .about .box-70 .info-70 p.button:nth-child(3) .material-icons.right, .about .box-70 .info-70 p:nth-child(3):nth-child(4) .material-icons.right { margin-left: 8px; margin-right: 0px; }
+.button.small .material-icons.right, .support-content ul li p.button .material-icons.right, .about .box-70 .info-70 p.small:nth-child(4) .material-icons.right, .about .box-70 .info-70 .support-content ul li p:nth-child(4) .material-icons.right, .support-content ul li .about .box-70 .info-70 p:nth-child(4) .material-icons.right, .about .box-70 .info-70 p.button:nth-child(3) .material-icons.right, .about .box-70 .info-70 p:nth-child(3):nth-child(4) .material-icons.right, .notator-cloud-feature ul.grid-73 li div p.button:last-child .material-icons.right, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p:last-child:nth-child(4) .material-icons.right, .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p:last-child:nth-child(4) .material-icons.right { margin-left: 8px; margin-right: 0px; }
 
-.button.small svg, .notator-cloud-feature ul.grid-73 li div p.button:last-child svg, .support-content ul li p.button svg, .about .box-70 .info-70 p.small:nth-child(4) svg, .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p:nth-child(4):last-child svg, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p:nth-child(4):last-child svg, .about .box-70 .info-70 .support-content ul li p:nth-child(4) svg, .support-content ul li .about .box-70 .info-70 p:nth-child(4) svg, .about .box-70 .info-70 p.button:nth-child(3) svg, .about .box-70 .info-70 p:nth-child(3):nth-child(4) svg { width: 18px; height: 18px; margin-right: 10px; bottom: 2px; }
+.button.small svg, .support-content ul li p.button svg, .about .box-70 .info-70 p.small:nth-child(4) svg, .about .box-70 .info-70 .support-content ul li p:nth-child(4) svg, .support-content ul li .about .box-70 .info-70 p:nth-child(4) svg, .about .box-70 .info-70 p.button:nth-child(3) svg, .about .box-70 .info-70 p:nth-child(3):nth-child(4) svg, .notator-cloud-feature ul.grid-73 li div p.button:last-child svg, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p:last-child:nth-child(4) svg, .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p:last-child:nth-child(4) svg { width: 18px; height: 18px; margin-right: 10px; bottom: 2px; }
 
-.button.small.round, .notator-cloud-feature ul.grid-73 li div p.button.round:last-child, .support-content ul li p.button.round, .about .box-70 .info-70 p.small.round:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p.round:nth-child(4):last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p.round:nth-child(4):last-child, .about .box-70 .info-70 .support-content ul li p.round:nth-child(4), .support-content ul li .about .box-70 .info-70 p.round:nth-child(4), .about .box-70 .info-70 p.button.round:nth-child(3), .about .box-70 .info-70 p.round:nth-child(3):nth-child(4) { padding-left: 18px; padding-right: 18px; }
+.button.small.round, .support-content ul li p.button.round, .about .box-70 .info-70 p.small.round:nth-child(4), .about .box-70 .info-70 .support-content ul li p.round:nth-child(4), .support-content ul li .about .box-70 .info-70 p.round:nth-child(4), .about .box-70 .info-70 p.button.round:nth-child(3), .about .box-70 .info-70 p.round:nth-child(3):nth-child(4), .notator-cloud-feature ul.grid-73 li div p.button.round:last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p.round:last-child:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p.round:last-child:nth-child(4) { padding-left: 18px; padding-right: 18px; }
 
-.button.small.rounded, .notator-cloud-feature ul.grid-73 li div p.button.rounded:last-child, .support-content ul li p.button.rounded, .about .box-70 .info-70 p.small.rounded:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p.rounded:nth-child(4):last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p.rounded:nth-child(4):last-child, .about .box-70 .info-70 .support-content ul li p.rounded:nth-child(4), .support-content ul li .about .box-70 .info-70 p.rounded:nth-child(4), .about .box-70 .info-70 p.button.rounded:nth-child(3), .about .box-70 .info-70 p.rounded:nth-child(3):nth-child(4) { border-radius: 5px; }
+.button.small.rounded, .support-content ul li p.button.rounded, .about .box-70 .info-70 p.small.rounded:nth-child(4), .about .box-70 .info-70 .support-content ul li p.rounded:nth-child(4), .support-content ul li .about .box-70 .info-70 p.rounded:nth-child(4), .about .box-70 .info-70 p.button.rounded:nth-child(3), .about .box-70 .info-70 p.rounded:nth-child(3):nth-child(4), .notator-cloud-feature ul.grid-73 li div p.button.rounded:last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p.rounded:last-child:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p.rounded:last-child:nth-child(4) { border-radius: 5px; }
 
-.button.small.uppercase, .notator-cloud-feature ul.grid-73 li div p.button.uppercase:last-child, .support-content ul li p.button.uppercase, .about .box-70 .info-70 p.small.uppercase:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p.uppercase:nth-child(4):last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p.uppercase:nth-child(4):last-child, .about .box-70 .info-70 .support-content ul li p.uppercase:nth-child(4), .support-content ul li .about .box-70 .info-70 p.uppercase:nth-child(4), .about .box-70 .info-70 p.button.uppercase:nth-child(3), .about .box-70 .info-70 p.uppercase:nth-child(3):nth-child(4) { font-size: 15px; padding: 10px 16px 11px; }
+.button.small.uppercase, .support-content ul li p.button.uppercase, .about .box-70 .info-70 p.small.uppercase:nth-child(4), .about .box-70 .info-70 .support-content ul li p.uppercase:nth-child(4), .support-content ul li .about .box-70 .info-70 p.uppercase:nth-child(4), .about .box-70 .info-70 p.button.uppercase:nth-child(3), .about .box-70 .info-70 p.uppercase:nth-child(3):nth-child(4), .notator-cloud-feature ul.grid-73 li div p.button.uppercase:last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p.uppercase:last-child:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p.uppercase:last-child:nth-child(4) { font-size: 15px; padding: 10px 16px 11px; }
 
-.button.small.uppercase.round, .notator-cloud-feature ul.grid-73 li div p.button.uppercase.round:last-child, .support-content ul li p.button.uppercase.round, .about .box-70 .info-70 p.small.uppercase.round:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p.uppercase.round:nth-child(4):last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p.uppercase.round:nth-child(4):last-child, .about .box-70 .info-70 .support-content ul li p.uppercase.round:nth-child(4), .support-content ul li .about .box-70 .info-70 p.uppercase.round:nth-child(4), .about .box-70 .info-70 p.button.uppercase.round:nth-child(3), .about .box-70 .info-70 p.uppercase.round:nth-child(3):nth-child(4) { padding-left: 19px; padding-right: 19px; }
+.button.small.uppercase.round, .support-content ul li p.button.uppercase.round, .about .box-70 .info-70 p.small.uppercase.round:nth-child(4), .about .box-70 .info-70 .support-content ul li p.uppercase.round:nth-child(4), .support-content ul li .about .box-70 .info-70 p.uppercase.round:nth-child(4), .about .box-70 .info-70 p.button.uppercase.round:nth-child(3), .about .box-70 .info-70 p.uppercase.round:nth-child(3):nth-child(4), .notator-cloud-feature ul.grid-73 li div p.button.uppercase.round:last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p.uppercase.round:last-child:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p.uppercase.round:last-child:nth-child(4) { padding-left: 19px; padding-right: 19px; }
 
-.button.small.uppercase svg, .notator-cloud-feature ul.grid-73 li div p.button.uppercase:last-child svg, .support-content ul li p.button.uppercase svg, .about .box-70 .info-70 p.small.uppercase:nth-child(4) svg, .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p.uppercase:nth-child(4):last-child svg, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p.uppercase:nth-child(4):last-child svg, .about .box-70 .info-70 .support-content ul li p.uppercase:nth-child(4) svg, .support-content ul li .about .box-70 .info-70 p.uppercase:nth-child(4) svg, .about .box-70 .info-70 p.button.uppercase:nth-child(3) svg, .about .box-70 .info-70 p.uppercase:nth-child(3):nth-child(4) svg { bottom: 0; }
+.button.small.uppercase svg, .support-content ul li p.button.uppercase svg, .about .box-70 .info-70 p.small.uppercase:nth-child(4) svg, .about .box-70 .info-70 .support-content ul li p.uppercase:nth-child(4) svg, .support-content ul li .about .box-70 .info-70 p.uppercase:nth-child(4) svg, .about .box-70 .info-70 p.button.uppercase:nth-child(3) svg, .about .box-70 .info-70 p.uppercase:nth-child(3):nth-child(4) svg, .notator-cloud-feature ul.grid-73 li div p.button.uppercase:last-child svg, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p.uppercase:last-child:nth-child(4) svg, .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p.uppercase:last-child:nth-child(4) svg { bottom: 0; }
 
 @media (min-width: 768px) { .button.big, .about .box-70 .info-70 p.big:nth-child(4), .about .box-70 .info-70 h3.button:nth:child(2) { font-size: 30px; padding: 19px 32px 23px; } .button.big.round, .about .box-70 .info-70 p.big.round:nth-child(4), .about .box-70 .info-70 h3.button.round:nth:child(2) { padding-left: 42px; padding-right: 42px; } .button.big.rounded, .about .box-70 .info-70 p.big.rounded:nth-child(4), .about .box-70 .info-70 h3.button.rounded:nth:child(2) { border-radius: 7px; } .button.big.uppercase, .about .box-70 .info-70 p.big.uppercase:nth-child(4), .about .box-70 .info-70 h3.button.uppercase:nth:child(2) { font-size: 26px; padding: 22px 30px 25px; } .button.big.uppercase.round, .about .box-70 .info-70 p.big.uppercase.round:nth-child(4), .about .box-70 .info-70 h3.button.uppercase.round:nth:child(2) { padding-left: 42px; padding-right: 42px; } .button.big .material-icons, .about .box-70 .info-70 p.big:nth-child(4) .material-icons, .about .box-70 .info-70 h3.button:nth:child(2) .material-icons { vertical-align: bottom; margin-right: 16px; font-size: 38px; } .button.big .material-icons.right, .about .box-70 .info-70 p.big:nth-child(4) .material-icons.right, .about .box-70 .info-70 h3.button:nth:child(2) .material-icons.right { margin-left: 16px; margin-right: 0px; } .button.big svg, .about .box-70 .info-70 p.big:nth-child(4) svg, .about .box-70 .info-70 h3.button:nth:child(2) svg { width: 36px; height: 36px; margin-right: 18px; } }
 
@@ -236,9 +236,9 @@ small .small, small .notator-cloud-feature ul.grid-73 li div p:last-child, .nota
 
 .button.play svg, .about .box-70 .info-70 p.play:nth-child(4) svg { fill: #fff; width: 35px; height: 36px; margin: 0; }
 
-.button.play.small, .notator-cloud-feature ul.grid-73 li div p.play:last-child, .support-content ul li p.play, .about .box-70 .info-70 p.play.small:nth-child(4), .about .box-70 .info-70 .support-content ul li p.play:nth-child(4), .support-content ul li .about .box-70 .info-70 p.play:nth-child(4), .about .box-70 .info-70 p.play:nth-child(3) { width: 60px; height: 60px; border-radius: 50%; padding: 20px 19px; }
+.button.play.small, .support-content ul li p.play, .about .box-70 .info-70 p.play.small:nth-child(4), .about .box-70 .info-70 .support-content ul li p.play:nth-child(4), .support-content ul li .about .box-70 .info-70 p.play:nth-child(4), .about .box-70 .info-70 p.play:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.play:last-child { width: 60px; height: 60px; border-radius: 50%; padding: 20px 19px; }
 
-.button.play.small svg, .notator-cloud-feature ul.grid-73 li div p.play:last-child svg, .support-content ul li p.play svg, .about .box-70 .info-70 p.play.small:nth-child(4) svg, .about .box-70 .info-70 .support-content ul li p.play:nth-child(4) svg, .support-content ul li .about .box-70 .info-70 p.play:nth-child(4) svg, .about .box-70 .info-70 p.play:nth-child(3) svg { fill: #fff; width: 23px; height: 23px; }
+.button.play.small svg, .support-content ul li p.play svg, .about .box-70 .info-70 p.play.small:nth-child(4) svg, .about .box-70 .info-70 .support-content ul li p.play:nth-child(4) svg, .support-content ul li .about .box-70 .info-70 p.play:nth-child(4) svg, .about .box-70 .info-70 p.play:nth-child(3) svg, .notator-cloud-feature ul.grid-73 li div p.play:last-child svg { fill: #fff; width: 23px; height: 23px; }
 
 .button.play:hover, .about .box-70:hover .info-70 p.play:nth-child(4), .about .box-70 .info-70 p.play:hover:nth-child(4) { transform: scale(1.05); }
 
@@ -497,11 +497,11 @@ html:not(.mobile) .slide.video .background[style] { background: none !important;
 
 .videoThumbnail:active:after { opacity: 0.8; }
 
-.videoThumbnail.small, .notator-cloud-feature ul.grid-73 li div p.videoThumbnail:last-child, .support-content ul li p.videoThumbnail, .about .box-70 .info-70 p.videoThumbnail:nth-child(3) { max-width: 200px; display: block; }
+.videoThumbnail.small, .support-content ul li p.videoThumbnail, .about .box-70 .info-70 p.videoThumbnail:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.videoThumbnail:last-child { max-width: 200px; display: block; }
 
-.videoThumbnail.small.shadow, .notator-cloud-feature ul.grid-73 li div p.videoThumbnail.shadow:last-child, .support-content ul li p.videoThumbnail.shadow, .about .box-70 .info-70 p.videoThumbnail.shadow:nth-child(3) { box-shadow: 0 9px 24px 0 rgba(0, 0, 0, 0.6); }
+.videoThumbnail.small.shadow, .support-content ul li p.videoThumbnail.shadow, .about .box-70 .info-70 p.videoThumbnail.shadow:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.videoThumbnail.shadow:last-child { box-shadow: 0 9px 24px 0 rgba(0, 0, 0, 0.6); }
 
-.videoThumbnail.small:after, .notator-cloud-feature ul.grid-73 li div p.videoThumbnail:last-child:after, .support-content ul li p.videoThumbnail:after, .about .box-70 .info-70 p.videoThumbnail:nth-child(3):after { background-size: 44px; }
+.videoThumbnail.small:after, .support-content ul li p.videoThumbnail:after, .about .box-70 .info-70 p.videoThumbnail:nth-child(3):after, .notator-cloud-feature ul.grid-73 li div p.videoThumbnail:last-child:after { background-size: 44px; }
 
 .shadow, .button.empty.shadow:hover, .about .box-70:hover .info-70 p.shadow:nth-child(4), .about .box-70 .info-70 p.empty.shadow:hover:nth-child(4) { box-shadow: 0 32px 44px 0 rgba(0, 0, 0, 0.6); }
 
@@ -590,7 +590,7 @@ html.mobile .showForMobileInline { display: inline !important; }
 
 .panel.large { padding: 2.78% 5%; }
 
-.panel.small, .notator-cloud-feature ul.grid-73 li div p.panel:last-child, .support-content ul li p.panel, .about .box-70 .info-70 p.panel:nth-child(3) { padding-top: 14px; padding-bottom: 14px; }
+.panel.small, .support-content ul li p.panel, .about .box-70 .info-70 p.panel:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.panel:last-child { padding-top: 14px; padding-bottom: 14px; }
 
 .panel.top { top: 0; }
 
@@ -644,13 +644,13 @@ html.mobile .showForMobileInline { display: inline !important; }
 
 .panel .sections .menu li a { padding: 4px 10px 5px; }
 
-.panel .sections .menu.small li, .panel .sections .notator-cloud-feature ul.grid-73 li div p.menu:last-child li, .notator-cloud-feature ul.grid-73 li div .panel .sections p.menu:last-child li, .panel .sections .support-content ul li p.menu li, .support-content ul li .panel .sections p.menu li, .panel .sections .about .box-70 .info-70 p.menu:nth-child(3) li, .about .box-70 .info-70 .panel .sections p.menu:nth-child(3) li { font-size: 18px; margin: 0 4px; }
+.panel .sections .menu.small li, .panel .sections .support-content ul li p.menu li, .support-content ul li .panel .sections p.menu li, .panel .sections .about .box-70 .info-70 p.menu:nth-child(3) li, .about .box-70 .info-70 .panel .sections p.menu:nth-child(3) li, .panel .sections .notator-cloud-feature ul.grid-73 li div p.menu:last-child li, .notator-cloud-feature ul.grid-73 li div .panel .sections p.menu:last-child li { font-size: 18px; margin: 0 4px; }
 
 .panel .sections .menu.uppercase { font-weight: 600 !important; }
 
 .panel .sections .menu.uppercase li { font-size: 17px; margin: 0 10px; letter-spacing: 0.15em; }
 
-.panel .sections .menu.uppercase.small li, .panel .sections .notator-cloud-feature ul.grid-73 li div p.uppercase:last-child li, .notator-cloud-feature ul.grid-73 li div .panel .sections p.uppercase:last-child li, .panel .sections .support-content ul li p.uppercase li, .support-content ul li .panel .sections p.uppercase li, .panel .sections .about .box-70 .info-70 p.uppercase:nth-child(3) li, .about .box-70 .info-70 .panel .sections p.uppercase:nth-child(3) li { font-size: 17px; }
+.panel .sections .menu.uppercase.small li, .panel .sections .support-content ul li p.uppercase li, .support-content ul li .panel .sections p.uppercase li, .panel .sections .about .box-70 .info-70 p.uppercase:nth-child(3) li, .about .box-70 .info-70 .panel .sections p.uppercase:nth-child(3) li, .panel .sections .notator-cloud-feature ul.grid-73 li div p.uppercase:last-child li, .notator-cloud-feature ul.grid-73 li div .panel .sections p.uppercase:last-child li { font-size: 17px; }
 
 .panel .hidden, .panel .hidden * { display: none; }
 
@@ -666,7 +666,7 @@ html.mobile .showForMobileInline { display: inline !important; }
 
 .panel .button:not(.actionButton), .panel .about .box-70 .info-70 p:not(.actionButton):nth-child(4), .about .box-70 .info-70 .panel p:not(.actionButton):nth-child(4) { display: inline-block; padding-left: 22px; padding-right: 22px; background: #fff; color: #303030; font-size: 20px; vertical-align: middle; padding-top: 11px; padding-bottom: 14px; }
 
-.panel .button.small:not(.actionButton), .panel .notator-cloud-feature ul.grid-73 li div p:not(.actionButton):last-child, .notator-cloud-feature ul.grid-73 li div .panel p:not(.actionButton):last-child, .panel .support-content ul li p:not(.actionButton), .support-content ul li .panel p:not(.actionButton), .panel .about .box-70 .info-70 p.small:not(.actionButton):nth-child(4), .panel .about .box-70 .info-70 .support-content ul li p:not(.actionButton):nth-child(4), .support-content ul li .panel .about .box-70 .info-70 p:not(.actionButton):nth-child(4), .about .box-70 .info-70 .panel p.small:not(.actionButton):nth-child(4), .about .box-70 .info-70 .panel .support-content ul li p:not(.actionButton):nth-child(4), .support-content ul li .about .box-70 .info-70 .panel p:not(.actionButton):nth-child(4), .panel .about .box-70 .info-70 p:not(.actionButton):nth-child(3), .about .box-70 .info-70 .panel p:not(.actionButton):nth-child(3) { font-size: 18px; }
+.panel .button.small:not(.actionButton), .panel .support-content ul li p:not(.actionButton), .support-content ul li .panel p:not(.actionButton), .panel .about .box-70 .info-70 p.small:not(.actionButton):nth-child(4), .panel .about .box-70 .info-70 .support-content ul li p:not(.actionButton):nth-child(4), .support-content ul li .panel .about .box-70 .info-70 p:not(.actionButton):nth-child(4), .about .box-70 .info-70 .panel p.small:not(.actionButton):nth-child(4), .about .box-70 .info-70 .panel .support-content ul li p:not(.actionButton):nth-child(4), .support-content ul li .about .box-70 .info-70 .panel p:not(.actionButton):nth-child(4), .panel .about .box-70 .info-70 p:not(.actionButton):nth-child(3), .about .box-70 .info-70 .panel p:not(.actionButton):nth-child(3), .panel .notator-cloud-feature ul.grid-73 li div p:not(.actionButton):last-child, .notator-cloud-feature ul.grid-73 li div .panel p:not(.actionButton):last-child { font-size: 18px; }
 
 .panel .button.micro:not(.actionButton), .panel .about .box-70 .info-70 p.micro:not(.actionButton):nth-child(4), .about .box-70 .info-70 .panel p.micro:not(.actionButton):nth-child(4) { font-size: 16px; padding: 12px 22px; }
 
@@ -680,7 +680,7 @@ html.mobile .showForMobileInline { display: inline !important; }
 
 .panel .menuButton.uppercase { font-size: 17px; padding: 12px 19px; }
 
-.panel .menuButton.uppercase.small, .panel .notator-cloud-feature ul.grid-73 li div p.uppercase:last-child, .notator-cloud-feature ul.grid-73 li div .panel p.uppercase:last-child, .panel .support-content ul li p.uppercase, .support-content ul li .panel p.uppercase, .panel .about .box-70 .info-70 p.uppercase:nth-child(3), .about .box-70 .info-70 .panel p.uppercase:nth-child(3) { font-size: 14px; }
+.panel .menuButton.uppercase.small, .panel .support-content ul li p.uppercase, .support-content ul li .panel p.uppercase, .panel .about .box-70 .info-70 p.uppercase:nth-child(3), .about .box-70 .info-70 .panel p.uppercase:nth-child(3), .panel .notator-cloud-feature ul.grid-73 li div p.uppercase:last-child, .notator-cloud-feature ul.grid-73 li div .panel p.uppercase:last-child { font-size: 14px; }
 
 .panel .button.menuButton.stroke, .panel .about .box-70 .info-70 p.menuButton.stroke:nth-child(4), .about .box-70 .info-70 .panel p.menuButton.stroke:nth-child(4) { color: #fff; }
 
@@ -779,9 +779,9 @@ html:not(.mobile) .navigation li:hover:after { opacity: 1; }
 
 .medium .navigation li:after { width: 10px; height: 10px; border-radius: 5px; }
 
-.small .navigation li, .notator-cloud-feature ul.grid-73 li div p:last-child .navigation li, .support-content ul li p .navigation li, .about .box-70 .info-70 p:nth-child(3) .navigation li { padding: 13px; margin: 0 -9px; }
+.small .navigation li, .support-content ul li p .navigation li, .about .box-70 .info-70 p:nth-child(3) .navigation li, .notator-cloud-feature ul.grid-73 li div p:last-child .navigation li { padding: 13px; margin: 0 -9px; }
 
-.small .navigation li:after, .notator-cloud-feature ul.grid-73 li div p:last-child .navigation li:after, .support-content ul li p .navigation li:after, .about .box-70 .info-70 p:nth-child(3) .navigation li:after { width: 6px; height: 6px; border-radius: 3px; }
+.small .navigation li:after, .support-content ul li p .navigation li:after, .about .box-70 .info-70 p:nth-child(3) .navigation li:after, .notator-cloud-feature ul.grid-73 li div p:last-child .navigation li:after { width: 6px; height: 6px; border-radius: 3px; }
 
 .navigation li[data-title]:before { content: attr(data-title); position: absolute; left: 0; top: 1px; background: rgba(40, 40, 40, 0.7); color: #fff; font-size: 15px; border-radius: 50px; padding: 6px 14px 7px; opacity: 0; pointer-events: none; white-space: nowrap; letter-spacing: 0.01em; transform: translateX(-100%); box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1); }
 
@@ -795,7 +795,7 @@ html:not(.mobile) .navigation li:hover:after { opacity: 1; }
 
 .stroke .navigation li:after { border-color: #fff; border-style: solid; border-width: 2px; background-color: transparent; }
 
-.stroke.small .navigation li:after, .notator-cloud-feature ul.grid-73 li div p.stroke:last-child .navigation li:after, .support-content ul li p.stroke .navigation li:after, .about .box-70 .info-70 p.stroke:nth-child(3) .navigation li:after { border-width: 1px; }
+.stroke.small .navigation li:after, .support-content ul li p.stroke .navigation li:after, .about .box-70 .info-70 p.stroke:nth-child(3) .navigation li:after, .notator-cloud-feature ul.grid-73 li div p.stroke:last-child .navigation li:after { border-width: 1px; }
 
 .stroke .navigation li.selected:after { background: #fff; }
 
@@ -803,13 +803,13 @@ html:not(.mobile) .navigation li:hover:after { opacity: 1; }
 
 .square .navigation li:after { border-radius: 0; }
 
-.square.small .navigation li:after, .notator-cloud-feature ul.grid-73 li div p.square:last-child .navigation li:after, .support-content ul li p.square .navigation li:after, .about .box-70 .info-70 p.square:nth-child(3) .navigation li:after { border-radius: 0; }
+.square.small .navigation li:after, .support-content ul li p.square .navigation li:after, .about .box-70 .info-70 p.square:nth-child(3) .navigation li:after, .notator-cloud-feature ul.grid-73 li div p.square:last-child .navigation li:after { border-radius: 0; }
 
 .diamond .navigation li:after { border-radius: 0px; transform: rotate(45deg) scale(0.72); }
 
 .diamond.medium .navigation li:after { transform: rotate(45deg) scale(0.88); }
 
-.diamond.small .navigation li:after, .notator-cloud-feature ul.grid-73 li div p.diamond:last-child .navigation li:after, .support-content ul li p.diamond .navigation li:after, .about .box-70 .info-70 p.diamond:nth-child(3) .navigation li:after { transform: rotate(45deg) scale(1); }
+.diamond.small .navigation li:after, .support-content ul li p.diamond .navigation li:after, .about .box-70 .info-70 p.diamond:nth-child(3) .navigation li:after, .notator-cloud-feature ul.grid-73 li div p.diamond:last-child .navigation li:after { transform: rotate(45deg) scale(1); }
 
 .slides.whiteSlide .navigation li:after { background: #303030; box-shadow: 0 0 1px #fff; }
 
@@ -823,7 +823,7 @@ html:not(.mobile) .navigation li:hover:after { opacity: 1; }
 
 .panel .navigation li { display: inline-block; margin: -9px 0; }
 
-.panel .side.small .navigation li, .panel .notator-cloud-feature ul.grid-73 li div p.side:last-child .navigation li, .notator-cloud-feature ul.grid-73 li div .panel p.side:last-child .navigation li, .panel .support-content ul li p.side .navigation li, .support-content ul li .panel p.side .navigation li, .panel .about .box-70 .info-70 p.side:nth-child(3) .navigation li, .about .box-70 .info-70 .panel p.side:nth-child(3) .navigation li { margin: 0; }
+.panel .side.small .navigation li, .panel .support-content ul li p.side .navigation li, .support-content ul li .panel p.side .navigation li, .panel .about .box-70 .info-70 p.side:nth-child(3) .navigation li, .about .box-70 .info-70 .panel p.side:nth-child(3) .navigation li, .panel .notator-cloud-feature ul.grid-73 li div p.side:last-child .navigation li, .notator-cloud-feature ul.grid-73 li div .panel p.side:last-child .navigation li { margin: 0; }
 
 .navigation .sideArrow { width: 31px; height: 72px; margin: 0px -9px; }
 
@@ -890,7 +890,7 @@ html:not(.mobile) .navigation li:hover:after { opacity: 1; }
 
 .sidebar .content { padding: 40px; overflow-y: auto; position: relative; }
 
-.sidebar.small .content, .notator-cloud-feature ul.grid-73 li div p.sidebar:last-child .content, .support-content ul li p.sidebar .content, .about .box-70 .info-70 p.sidebar:nth-child(3) .content { padding: 30px; }
+.sidebar.small .content, .support-content ul li p.sidebar .content, .about .box-70 .info-70 p.sidebar:nth-child(3) .content, .notator-cloud-feature ul.grid-73 li div p.sidebar:last-child .content { padding: 30px; }
 
 .sidebar .wrap { padding: 0; }
 
@@ -920,11 +920,11 @@ html:not(.mobile) .navigation li:hover:after { opacity: 1; }
 
 .sidebar .mainMenu li a { font-size: 24px; font-weight: 600; }
 
-.sidebar .mainMenu.small li a, .sidebar .notator-cloud-feature ul.grid-73 li div p.mainMenu:last-child li a, .notator-cloud-feature ul.grid-73 li div .sidebar p.mainMenu:last-child li a, .sidebar .support-content ul li p.mainMenu li a, .support-content ul li .sidebar p.mainMenu li a, .sidebar .about .box-70 .info-70 p.mainMenu:nth-child(3) li a, .about .box-70 .info-70 .sidebar p.mainMenu:nth-child(3) li a { font-size: 22px; }
+.sidebar .mainMenu.small li a, .sidebar .support-content ul li p.mainMenu li a, .support-content ul li .sidebar p.mainMenu li a, .sidebar .about .box-70 .info-70 p.mainMenu:nth-child(3) li a, .about .box-70 .info-70 .sidebar p.mainMenu:nth-child(3) li a, .sidebar .notator-cloud-feature ul.grid-73 li div p.mainMenu:last-child li a, .notator-cloud-feature ul.grid-73 li div .sidebar p.mainMenu:last-child li a { font-size: 22px; }
 
 .sidebar .subMenu li { font-weight: 400; text-transform: none; letter-spacing: 0px; opacity: 0.8; font-size: 22px; }
 
-.sidebar .subMenu.small li, .sidebar .notator-cloud-feature ul.grid-73 li div p.subMenu:last-child li, .notator-cloud-feature ul.grid-73 li div .sidebar p.subMenu:last-child li, .sidebar .support-content ul li p.subMenu li, .support-content ul li .sidebar p.subMenu li, .sidebar .about .box-70 .info-70 p.subMenu:nth-child(3) li, .about .box-70 .info-70 .sidebar p.subMenu:nth-child(3) li { font-size: 17px; }
+.sidebar .subMenu.small li, .sidebar .support-content ul li p.subMenu li, .support-content ul li .sidebar p.subMenu li, .sidebar .about .box-70 .info-70 p.subMenu:nth-child(3) li, .about .box-70 .info-70 .sidebar p.subMenu:nth-child(3) li, .sidebar .notator-cloud-feature ul.grid-73 li div p.subMenu:last-child li, .notator-cloud-feature ul.grid-73 li div .sidebar p.subMenu:last-child li { font-size: 17px; }
 
 .sidebar .social { margin-top: 40px; }
 
@@ -936,15 +936,15 @@ html:not(.mobile) .navigation li:hover:after { opacity: 1; }
 
 .sidebar .social li a svg { width: 18px; height: 18px; }
 
-.sidebar .social.small li, .sidebar .notator-cloud-feature ul.grid-73 li div p.social:last-child li, .notator-cloud-feature ul.grid-73 li div .sidebar p.social:last-child li, .sidebar .support-content ul li p.social li, .support-content ul li .sidebar p.social li, .sidebar .about .box-70 .info-70 p.social:nth-child(3) li, .about .box-70 .info-70 .sidebar p.social:nth-child(3) li { margin-right: 12px; }
+.sidebar .social.small li, .sidebar .support-content ul li p.social li, .support-content ul li .sidebar p.social li, .sidebar .about .box-70 .info-70 p.social:nth-child(3) li, .about .box-70 .info-70 .sidebar p.social:nth-child(3) li, .sidebar .notator-cloud-feature ul.grid-73 li div p.social:last-child li, .notator-cloud-feature ul.grid-73 li div .sidebar p.social:last-child li { margin-right: 12px; }
 
-.sidebar .social.small li a svg, .sidebar .notator-cloud-feature ul.grid-73 li div p.social:last-child li a svg, .notator-cloud-feature ul.grid-73 li div .sidebar p.social:last-child li a svg, .sidebar .support-content ul li p.social li a svg, .support-content ul li .sidebar p.social li a svg, .sidebar .about .box-70 .info-70 p.social:nth-child(3) li a svg, .about .box-70 .info-70 .sidebar p.social:nth-child(3) li a svg { width: 15px; height: 15px; }
+.sidebar .social.small li a svg, .sidebar .support-content ul li p.social li a svg, .support-content ul li .sidebar p.social li a svg, .sidebar .about .box-70 .info-70 p.social:nth-child(3) li a svg, .about .box-70 .info-70 .sidebar p.social:nth-child(3) li a svg, .sidebar .notator-cloud-feature ul.grid-73 li div p.social:last-child li a svg, .notator-cloud-feature ul.grid-73 li div .sidebar p.social:last-child li a svg { width: 15px; height: 15px; }
 
 .sidebar .social.large li { margin-right: 12px; }
 
 .sidebar .social.large li a svg { width: 22px; height: 22px; }
 
-.sidebar.small .social, .notator-cloud-feature ul.grid-73 li div p.sidebar:last-child .social, .support-content ul li p.sidebar .social, .about .box-70 .info-70 p.sidebar:nth-child(3) .social { margin-top: 30px; }
+.sidebar.small .social, .support-content ul li p.sidebar .social, .about .box-70 .info-70 p.sidebar:nth-child(3) .social, .notator-cloud-feature ul.grid-73 li div p.sidebar:last-child .social { margin-top: 30px; }
 
 .sidebar .large li a { font-size: 36px; }
 
@@ -1530,7 +1530,7 @@ body { font-size: 16px; }
 
 .article .h1, .article h1 { font-size: 8.4rem; line-height: 10rem; margin-top: 8rem; padding-top: 0.0138rem; padding-bottom: 0.9862rem; margin-bottom: 1rem; }
 
-.article .h1.small, .article .notator-cloud-feature ul.grid-73 li div p.h1:last-child, .notator-cloud-feature ul.grid-73 li div .article p.h1:last-child, .article .support-content ul li p.h1, .support-content ul li .article p.h1, .article .about .box-70 .info-70 p.h1:nth-child(3), .about .box-70 .info-70 .article p.h1:nth-child(3), .article h1.small { font-size: 6.4rem; line-height: 6rem; margin-top: 3rem; padding-top: 0.7248rem; padding-bottom: 0.2752rem; margin-bottom: 2rem; }
+.article .h1.small, .article .support-content ul li p.h1, .support-content ul li .article p.h1, .article .about .box-70 .info-70 p.h1:nth-child(3), .about .box-70 .info-70 .article p.h1:nth-child(3), .article .notator-cloud-feature ul.grid-73 li div p.h1:last-child, .notator-cloud-feature ul.grid-73 li div .article p.h1:last-child, .article h1.small { font-size: 6.4rem; line-height: 6rem; margin-top: 3rem; padding-top: 0.7248rem; padding-bottom: 0.2752rem; margin-bottom: 2rem; }
 
 .article .h1.large, .article h1.large { font-size: 9.6rem; line-height: 10rem; margin-top: 7rem; padding-top: 0.5872rem; padding-bottom: 0.4128rem; margin-bottom: 4rem; }
 
@@ -1538,7 +1538,7 @@ body { font-size: 16px; }
 
 .article .h2, .article h2 { font-size: 7.4rem; line-height: 8rem; margin-top: 6rem; padding-top: 0.3693rem; padding-bottom: 0.6307rem; margin-bottom: 1rem; }
 
-.article .h2.small, .article .notator-cloud-feature ul.grid-73 li div p.h2:last-child, .notator-cloud-feature ul.grid-73 li div .article p.h2:last-child, .article .support-content ul li p.h2, .support-content ul li .article p.h2, .article .about .box-70 .info-70 p.h2:nth-child(3), .about .box-70 .info-70 .article p.h2:nth-child(3), .article h2.small { font-size: 5.6rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.0092rem; padding-bottom: 0.9908rem; margin-bottom: -1rem; }
+.article .h2.small, .article .support-content ul li p.h2, .support-content ul li .article p.h2, .article .about .box-70 .info-70 p.h2:nth-child(3), .about .box-70 .info-70 .article p.h2:nth-child(3), .article .notator-cloud-feature ul.grid-73 li div p.h2:last-child, .notator-cloud-feature ul.grid-73 li div .article p.h2:last-child, .article h2.small { font-size: 5.6rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.0092rem; padding-bottom: 0.9908rem; margin-bottom: -1rem; }
 
 .article .h2.large, .article h2.large { font-size: 8.8rem; line-height: 9rem; margin-top: 6rem; padding-top: 0.3716rem; padding-bottom: 0.6284rem; margin-bottom: 1rem; }
 
@@ -1546,7 +1546,7 @@ body { font-size: 16px; }
 
 .article .h3, .article h3 { font-size: 6.4rem; line-height: 8rem; margin-top: 3rem; padding-top: 0.7248rem; padding-bottom: 0.2752rem; margin-bottom: 0rem; }
 
-.article .h3.small, .article .notator-cloud-feature ul.grid-73 li div p.h3:last-child, .notator-cloud-feature ul.grid-73 li div .article p.h3:last-child, .article .support-content ul li p.h3, .support-content ul li .article p.h3, .article .about .box-70 .info-70 p.h3:nth-child(3), .about .box-70 .info-70 .article p.h3:nth-child(3), .article h3.small { font-size: 4.8rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2936rem; padding-bottom: 0.7064rem; margin-bottom: -1rem; }
+.article .h3.small, .article .support-content ul li p.h3, .support-content ul li .article p.h3, .article .about .box-70 .info-70 p.h3:nth-child(3), .about .box-70 .info-70 .article p.h3:nth-child(3), .article .notator-cloud-feature ul.grid-73 li div p.h3:last-child, .notator-cloud-feature ul.grid-73 li div .article p.h3:last-child, .article h3.small { font-size: 4.8rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2936rem; padding-bottom: 0.7064rem; margin-bottom: -1rem; }
 
 .article .h3.large, .article h3.large { font-size: 8rem; line-height: 10rem; margin-top: 4rem; padding-top: 0.156rem; padding-bottom: 0.844rem; margin-bottom: 0rem; }
 
@@ -1562,7 +1562,7 @@ body { font-size: 16px; }
 
 .article p.micro, .article .p.micro, .article .p:not(.hero) + p.micro, .article p:not(.hero) + p.micro { font-size: 2.6rem; line-height: 4rem; margin-top: 2rem; padding-top: 0.0757rem; padding-bottom: 0.9243rem; margin-bottom: -1rem; }
 
-.article p.small, .article .notator-cloud-feature ul.grid-73 li div p:last-child, .notator-cloud-feature ul.grid-73 li div .article p:last-child, .article .support-content ul li p, .support-content ul li .article p, .article .about .box-70 .info-70 p:nth-child(3), .about .box-70 .info-70 .article p:nth-child(3), .article .p.small, .article .p:not(.hero) + p.small, .article p:not(.hero) + p.small { font-size: 3rem; line-height: 4rem; margin-top: 1rem; padding-top: 0.9335rem; padding-bottom: 0.0665rem; margin-bottom: 0rem; }
+.article p.small, .article .support-content ul li p, .support-content ul li .article p, .article .about .box-70 .info-70 p:nth-child(3), .about .box-70 .info-70 .article p:nth-child(3), .article .notator-cloud-feature ul.grid-73 li div p:last-child, .notator-cloud-feature ul.grid-73 li div .article p:last-child, .article .p.small, .article .p:not(.hero) + p.small, .article p:not(.hero) + p.small { font-size: 3rem; line-height: 4rem; margin-top: 1rem; padding-top: 0.9335rem; padding-bottom: 0.0665rem; margin-bottom: 0rem; }
 
 .article p.hero, .article .notator-intro .post-content .ae-2 p, .notator-intro .post-content .ae-2 .article p, .article .p.hero, .article .p:not(.hero) + p.hero, .article p:not(.hero) + p.hero { font-size: 5rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 3rem; font-weight: 300; letter-spacing: -0.16rem; }
 
@@ -2200,7 +2200,7 @@ body { font-size: 16px; }
 
 .dialogContainer, .dialog { position: fixed; top: 0; right: 0; z-index: 300; }
 
-.dialog .button.small, .dialog .notator-cloud-feature ul.grid-73 li div p.button:last-child, .notator-cloud-feature ul.grid-73 li div .dialog p.button:last-child, .dialog .support-content ul li p.button, .support-content ul li .dialog p.button, .dialog .about .box-70 .info-70 p.small:nth-child(4), .dialog .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div p:nth-child(4):last-child, .notator-cloud-feature ul.grid-73 li div .dialog .about .box-70 .info-70 p:nth-child(4):last-child, .dialog .about .box-70 .info-70 .support-content ul li p:nth-child(4), .support-content ul li .dialog .about .box-70 .info-70 p:nth-child(4), .about .box-70 .info-70 .dialog p.small:nth-child(4), .about .box-70 .info-70 .dialog .notator-cloud-feature ul.grid-73 li div p:nth-child(4):last-child, .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 .dialog p:nth-child(4):last-child, .about .box-70 .info-70 .dialog .support-content ul li p:nth-child(4), .support-content ul li .about .box-70 .info-70 .dialog p:nth-child(4), .dialog .about .box-70 .info-70 p.button:nth-child(3), .dialog .about .box-70 .info-70 p:nth-child(3):nth-child(4), .about .box-70 .info-70 .dialog p.button:nth-child(3), .about .box-70 .info-70 .dialog p:nth-child(3):nth-child(4) { margin-left: 4px; margin-right: 4px; }
+.dialog .button.small, .dialog .support-content ul li p.button, .support-content ul li .dialog p.button, .dialog .about .box-70 .info-70 p.small:nth-child(4), .dialog .about .box-70 .info-70 .support-content ul li p:nth-child(4), .support-content ul li .dialog .about .box-70 .info-70 p:nth-child(4), .about .box-70 .info-70 .dialog p.small:nth-child(4), .about .box-70 .info-70 .dialog .support-content ul li p:nth-child(4), .support-content ul li .about .box-70 .info-70 .dialog p:nth-child(4), .dialog .about .box-70 .info-70 p.button:nth-child(3), .dialog .about .box-70 .info-70 p:nth-child(3):nth-child(4), .about .box-70 .info-70 .dialog p.button:nth-child(3), .about .box-70 .info-70 .dialog p:nth-child(3):nth-child(4), .dialog .notator-cloud-feature ul.grid-73 li div p.button:last-child, .dialog .notator-cloud-feature ul.grid-73 li div .about .box-70 .info-70 p:last-child:nth-child(4), .about .box-70 .info-70 .dialog .notator-cloud-feature ul.grid-73 li div p:last-child:nth-child(4), .notator-cloud-feature ul.grid-73 li div .dialog p.button:last-child, .notator-cloud-feature ul.grid-73 li div .dialog .about .box-70 .info-70 p:last-child:nth-child(4), .about .box-70 .info-70 .notator-cloud-feature ul.grid-73 li div .dialog p:last-child:nth-child(4) { margin-left: 4px; margin-right: 4px; }
 
 .dialog .button, .dialog .about .box-70 .info-70 p:nth-child(4), .about .box-70 .info-70 .dialog p:nth-child(4) { margin-left: 7px; margin-right: 7px; }
 
@@ -3370,9 +3370,23 @@ form input.input-96[type="text"], form input.input-96[type="name"], form input.i
 
 .clearBoth:after { content: ""; clear: both; display: table; }
 
+.notator-cloud-feature ul.grid-73:hover .cell-73:after, .notator-cloud-feature .about .box-70:hover .info-70 p.grid-73:nth-child(4) .cell-73:after, .about .box-70:hover .info-70 .notator-cloud-feature p.grid-73:nth-child(4) .cell-73:after { opacity: 1; }
+
+.notator-cloud-feature ul.grid-73:hover li:last-child .cell-73:after, .notator-cloud-feature .about .box-70:hover .info-70 p.grid-73:nth-child(4) li:last-child .cell-73:after, .about .box-70:hover .info-70 .notator-cloud-feature p.grid-73:nth-child(4) li:last-child .cell-73:after { opacity: 0; }
+
+.notator-cloud-feature ul.grid-73 li div.cell-73:hover, .notator-cloud-feature ul.grid-73 li .about .box-70:hover .info-70 p.cell-73:nth-child(4), .about .box-70:hover .info-70 .notator-cloud-feature ul.grid-73 li p.cell-73:nth-child(4) { background: inherit; color: inherit; opacity: 1; box-shadow: none; }
+
+.notator-cloud-feature ul.grid-73 li div p:first-child { margin: 0; }
+
 .about .box-70 .info-70 p:nth-child(1) { margin-top: 0; }
 
 .about .box-70:hover .info-70 p:nth-child(4) { color: #fff !important; }
+
+.about .address .box-70 { max-width: initial; text-align: initial; }
+
+@media (max-width: 1023px) { .about .address .box-70 { max-width: 400px; } }
+
+.about .address .box-70 .info-70 { padding: 40px 30px 10px; }
 
 .support-content ul li { padding-left: 2%; padding-right: 2%; }
 
@@ -3393,19 +3407,5 @@ form input.input-96[type="text"], form input.input-96[type="name"], form input.i
 .privacy-policy cite { font-size: .8em; }
 
 .privacy-policy cite + cite { display: block; }
-
-.about .col-1-12 .box-70 { max-width: initial; text-align: initial; }
-
-@media (max-width: 1023px) { .about .col-1-12 .box-70 { max-width: 400px; } }
-
-.about .col-1-12 .box-70 .info-70 { padding: 40px 30px 10px; }
-
-.notator-cloud-feature ul.grid-73:hover .cell-73:after, .notator-cloud-feature .about .box-70:hover .info-70 p.grid-73:nth-child(4) .cell-73:after, .about .box-70:hover .info-70 .notator-cloud-feature p.grid-73:nth-child(4) .cell-73:after { opacity: 1; }
-
-.notator-cloud-feature ul.grid-73:hover li:last-child .cell-73:after, .notator-cloud-feature .about .box-70:hover .info-70 p.grid-73:nth-child(4) li:last-child .cell-73:after, .about .box-70:hover .info-70 .notator-cloud-feature p.grid-73:nth-child(4) li:last-child .cell-73:after { opacity: 0; }
-
-.notator-cloud-feature ul.grid-73 li div.cell-73:hover, .notator-cloud-feature ul.grid-73 li .about .box-70:hover .info-70 p.cell-73:nth-child(4), .about .box-70:hover .info-70 .notator-cloud-feature ul.grid-73 li p.cell-73:nth-child(4) { background: inherit; color: inherit; opacity: 1; box-shadow: none; }
-
-.notator-cloud-feature ul.grid-73 li div p:first-child { margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
