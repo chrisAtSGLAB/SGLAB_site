@@ -11,7 +11,7 @@
 						{{ post.content }}
 						
 						{% for image in site.static_files %}
-							{% if image.path contains 'img/homepage/slide3/object' %}
+							{% if image.path contains 'img/homepage/notator-cloud-feature/object' %}
 						<li class="col-6-12 left ae-1 fromAbove">
 							<img class="shiftImage shiftImageVertical image-73" src="{{ site.baseurl }}{{ image.path }}" data-action="zoom" alt="iPhone Image" />
 						</li>
@@ -57,7 +57,7 @@
 		</div>
 	</div>
 	{% for image in site.static_files %}
-		{% if image.path contains 'img/homepage/slide3/bg' %}
+		{% if image.path contains 'img/homepage/notator-cloud-feature/bg' %}
 	<div class="background" style="background-image:url({{ site.baseurl }}{{ image.path }})"></div>
 		{% endif %}
 	{% endfor %}

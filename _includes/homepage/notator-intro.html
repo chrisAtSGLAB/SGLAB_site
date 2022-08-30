@@ -10,7 +10,7 @@
 			<div class="wrap top">
 				<div class="fix-10-12 toCenter">
 					{% for image in site.static_files %}
-						{% if image.path contains "img/homepage/slide1/app-icon" %}
+						{% if image.path contains "img/homepage/notator-intro/app-icon" %}
 							<img class="margin-bottom-1 ae-1 fromCenter" src="{{ site.baseurl }}{{ image.path }}" alt="image" width="70" />
 						{% endif %}
 					{% endfor %}
@@ -22,7 +22,7 @@
 				</div>
 				
 				{% for image in site.static_files %}
-					{% if image.path contains 'img/homepage/slide1/object' %}
+					{% if image.path contains 'img/homepage/notator-intro/object' %}
 				<div class="fix-12-12 ae-5">
 					<img class="ipad-36" src="{{ site.baseurl }}{{ image.path }}" data-action="zoom" alt="iPad App" />
 				</div>
@@ -33,7 +33,7 @@
 	</div>
 	
 	{% for image in site.static_files %}
-		{% if image.path contains 'img/homepage/slide1/bg' %}
+		{% if image.path contains 'img/homepage/notator-intro/bg' %}
 	<div class="background" style="background-image:url({{ site.baseurl }}{{ image.path }})"></div>
 		{% endif %}
 	{% endfor %}

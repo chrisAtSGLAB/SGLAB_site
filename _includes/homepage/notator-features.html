@@ -2,7 +2,7 @@
 {% if post.title == "Notator Features" %}
 
 
-<section class="slide fade kenBurns">
+<section class="notator-features slide fade kenBurns">
 	<div class="content">
 		<div class="container">
 			<div class="wrap">
@@ -15,19 +15,19 @@
 							
 							<ul class="tabs controller uppercase ae-3 fromCenter" data-slider-id="33-1">
 								{% for image in site.static_files %}
-									{% if image.path contains 'img/homepage/slide2/object1' %}
+									{% if image.path contains 'img/homepage/notator-features/object1' %}
 								<li class="selected">{{ post.tab1-label }}</li>
 									{% endif %}
 								{% endfor %}
 								
 								{% for image in site.static_files %}
-									{% if image.path contains 'img/homepage/slide2/object1' %}
+									{% if image.path contains 'img/homepage/notator-features/object2' %}
 								<li>{{ post.tab2-label }}</li>
 									{% endif %}
 								{% endfor %}
 								
 								{% for image in site.static_files %}
-									{% if image.path contains 'img/homepage/slide2/object1' %}
+									{% if image.path contains 'img/homepage/notator-features/object3' %}
 								<li>{{ post.tab3-label }}</li>
 									{% endif %}
 								{% endfor %}
@@ -36,7 +36,7 @@
 						<li class="col-6-12 left ae-4 fromRight">
 							<ul class="slider" data-slider-id="33-1">
 								{% for image in site.static_files %}
-									{% if image.path contains 'img/homepage/slide2/object1' %}
+									{% if image.path contains 'img/homepage/notator-features/object1' %}
 								<li class="selected">
 									<img class="ipad-33" data-action="zoom" width="1200" src="{{ site.baseurl }}{{ image.path }}" />
 								</li>
@@ -44,7 +44,7 @@
 								{% endfor %}
 								
 								{% for image in site.static_files %}
-									{% if image.path contains 'img/homepage/slide2/object2' %}
+									{% if image.path contains 'img/homepage/notator-features/object2' %}
 								<li data-action="zoom">
 									<img class="ipad-33" data-action="zoom" width="1200" src="{{ site.baseurl }}{{ image.path }}" />
 								</li>
@@ -52,7 +52,7 @@
 								{% endfor %}
 								
 								{% for image in site.static_files %}
-									{% if image.path contains 'img/homepage/slide2/object3' %}
+									{% if image.path contains 'img/homepage/notator-features/object3' %}
 								<li data-action="zoom">
 									<img class="ipad-33" data-action="zoom" width="1200" src="{{ site.baseurl }}{{ image.path }}" alt="iPhone Image"/>
 								</li>
@@ -68,7 +68,7 @@
 	</div>
 	
 	{% for image in site.static_files %}
-		{% if image.path contains 'img/homepage/slide2/bg' %}
+		{% if image.path contains 'img/homepage/notator-features/bg' %}
 	<div class="background" style="background-image:url({{ site.baseurl }}{{ image.path }})"></div>
 		{% endif %}
 	{% endfor %}

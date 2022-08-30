@@ -32,7 +32,7 @@
 		
 		&:hover {
 			.info-70 p:nth-child(4) {
-				@extend .button:hover;
+				@extend .button;
 				color: #fff !important;
 			}	
 		}
