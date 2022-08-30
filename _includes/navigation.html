@@ -2,22 +2,22 @@
 <nav class="panel top forceMobileView">
 	<div class="sections desktop">
 		<div class="left">
-			<a class="home" href="/#home" title="Brand Name">
+			<a class="home" href="{{ site.baseurl }}/#home" title="Brand Name">
 				<img src={{ "/assets/svg/logo-horizontal2.svg" | relative_url }} style="width:368.71px;height:31px" />
 			</a>
 		</div>
 		<div class="right">
 			<ul class="menu uppercase">
-				<li><a href="/#about">About</a></li>
-				<li><a href="/ios-developer/">Careers</a></li>
-				<li><a href="/faq/">Help</a></li>
+				<li><a href="{{ site.baseurl }}/#about">About</a></li>
+				<li><a href="{{ site.baseurl }}/ios-developer/">Careers</a></li>
+				<li><a href="{{ site.baseurl }}/faq/">Help</a></li>
 			</ul>
 			<a class="button menuButton round uppercase" href="{{ site.mailto-contact}}">Contact us</a>
 		</div>
 	</div>
 	<div class="sections compact hidden">
 		<div class="left">
-			<a class="home" href="/#home" title="Brand Name">
+			<a class="home" href="{{ site.baseurl }}/#home" title="Brand Name">
 				<img src={{ "/assets/svg/logo-horizontal.svg" | relative_url }} style="width:345.65px;height:31px" />
 			</a>
 		</div>
@@ -40,16 +40,16 @@
 	</div>
 	<div class="content">
 		<a href="/#home" title="Brand Name" class="logo">
-			<img src="/assets/svg/logo-stacked.svg" style="width:168.96;height:46.50px" />
+			<img src={{ "/assets/svg/logo-stacked.svg" | relative_url }} style="width:168.96;height:46.50px" />
 		</a>
 		<ul class="mainMenu uppercase">
-			<li><a href="/#about">About</a></li>
-			<li><a href="/ios-developer/">Careers</a></li>
-			<li><a href="/faq/">Help</a></li>
+			<li><a href="{{ site.baseurl }}/#about">About</a></li>
+			<li><a href="{{ site.baseurl }}/ios-developer/">Careers</a></li>
+			<li><a href="{{ site.baseurl }}/faq/">Help</a></li>
 			<li><a href="{{ site.mailto-contact}}">Contact us</a></li>
 		</ul>
 		<ul class="subMenu">
-			<li><a href="/privacy-policy/">Privacy and Policy</a></li>
+			<li><a href="{{ site.baseurl }}/privacy-policy/">Privacy and Policy</a></li>
 		</ul>
 		<ul class="social">
 			<li>

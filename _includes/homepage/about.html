@@ -42,7 +42,7 @@
 						{% for post in site.categories.about %}
 						{% if post.title == "About FAQ" %}
 						<li class="col-4-12">
-							<a href="{{ post.gridLink }}" class="box-70 ae-4" style="background-color:#C3CCDD;">
+							<a href="{{ site.baseurl }}/faq/" class="box-70 ae-4" style="background-color:#C3CCDD;">
 								<div class="thumbnail-70">
 									{% for image in site.static_files %}
 									{% if image.path contains 'img/homepage/about/grid2' %}
@@ -61,7 +61,7 @@
 						{% for post in site.categories.about %}
 						{% if post.title == "About Careers" %}
 						<li class="col-4-12">
-							<a href="{{ post.gridLink }}" class="box-70 ae-5" style="background-color:#D9D5C5;">
+							<a href="{{ site.baseurl }}/ios-developer/" class="box-70 ae-5" style="background-color:#D9D5C5;">
 								<div class="thumbnail-70">
 									{% for image in site.static_files %}
 									{% if image.path contains 'img/homepage/about/grid3' %}
