@@ -1,0 +1,15 @@
+.privacy-policy {
+	ol, li {
+	  list-style-type: decimal;
+	  // counter-reset: my-awesome-counter;
+	}
+
+	
+	cite {
+		font-size: .8em;
+	}
+	
+	cite + cite {
+		display: block;
+	}
+}

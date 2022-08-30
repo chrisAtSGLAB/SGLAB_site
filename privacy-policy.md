@@ -74,27 +74,31 @@ There are several external links in this Website. The scope of this Privacy Poli
 
 11. ### Notice of Changes and Updates of the Privacy Policy and Complaints
 We will review and improve our services on a regular basis. As a result, the Privacy Policy may be changed from time to time. If there are significant changes to the Privacy Policy, we will announce such changes on this Website. In addition, please contact the following contact information for inquiries and complaints regarding our handling of personal data.
-[Huubap Pte. Ltd.]
-[Kazuyuki Okuhata]
-[Tel. +65-6690-8821]
-[Email. privacy@huubap.com]
+
+<cite>[Huubap Pte. Ltd.]</cite>
+<cite>[Kazuyuki Okuhata]</cite>
+<cite>[Tel. +65-6690-8821]</cite>
+<cite>[Email. privacy@huubap.com]</cite>
 
 ## Notice regarding Personal Data Subject to Disclosure
 We hereby notify you of the handling of personal data regarding all requests for disclosure, correction, addition or deletion of the content, suspension of use, or deletion of personal data requested by customers (referred to as the “personal data subject to disclosure”) as follows:
 
-1. Entities Handling Personal Data
+1. ### Entities Handling Personal Data
 HUUBAP PTE. LTD.
-2. Personal Data Protection Managers
-HUUBAP PTE. LTD. Personal Data Protection Manager
+
+2. ### Personal Data Protection Managers
+HUUBAP PTE. LTD. Personal Data Protection Manager<br/>
 Email: privacy@huubap.com
-3. Purpose of Use of Personal Data subject to Disclosure
-– for responding to customers’ inquiries;
-– for improving products based on customers’ complaints and opinions;
-– for sending various materials and providing other services as requested by customers;
-– for reflecting information in the formulation of new services and the enhancement of our services for customers;
-– for using as statistical materials (on a no-name basis);
-– for labor management of employees; and
-– for recruitment management
+
+3. ### Purpose of Use of Personal Data subject to Disclosure
+	* for responding to customers’ inquiries;
+	* for improving products based on customers’ complaints and opinions;
+	* for sending various materials and providing other services as requested by customers;
+	* for reflecting information in the formulation of new services and the enhancement of our services for customers;
+	* for using as statistical materials (on a no-name basis);
+	* for labor management of employees; and
+	* for recruitment management
+	
 4. Where to Request for Complaints about the Handling of the Personal Data subject to Disclosure
 For complaints and inquiries regarding the handling of the personal data subject to disclosure, please contact the contact information listed in the contact information above.
 5. Request for Disclosure, etc.

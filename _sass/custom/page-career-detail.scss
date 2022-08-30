@@ -1,0 +1,24 @@
+.pad {
+	ul {
+		list-style: none;
+		li {
+			font-size: 22px;
+			line-height: 1.385;
+			opacity: 0.8;
+			margin-bottom: .75em;
+			
+			&:before {
+				content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+				color: red; /* Change the color */
+				font-weight: bold; /* If you want it to be bold */
+				display: inline-block; /* Needed to add space between the bullet and the text */ 
+				width: 1em; /* Also needed for space (tweak if needed) */
+				margin-left: -1em; /* Also needed for space (tweak if needed) */
+			}
+		}
+		
+		& + h2 {
+			margin-top: 60px;
+		}
+	}
+}

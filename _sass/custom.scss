@@ -17,74 +17,13 @@
 @import 'custom/homepage-notator-about';
 
 
-
-.support-content {
-	ul {
-		@extend .flex;
-		@extend .left;
-		@extend .margin-top-6;
-		
-		li {
-			@extend .col-6-12;
-			@extend .margin-bottom-1;
-			padding-left: 2%;
-			padding-right: 2%;
-			
-			p {
-				@extend .small;
-			}
-		}
-	}
-}
+// FAQ page
+@import 'custom/page-faq';
 
 
+// Career Detail page
+@import 'custom/page-career-detail';
 
 
-
-.pad {
-	ul {
-		list-style: none;
-		li {
-			font-size: 22px;
-			line-height: 1.385;
-			opacity: 0.8;
-			margin-bottom: .75em;
-			
-			&:before {
-				content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-				color: red; /* Change the color */
-				font-weight: bold; /* If you want it to be bold */
-				display: inline-block; /* Needed to add space between the bullet and the text */ 
-				width: 1em; /* Also needed for space (tweak if needed) */
-				margin-left: -1em; /* Also needed for space (tweak if needed) */
-			}
-		}
-		
-		& + h2 {
-			margin-top: 60px;
-		}
-	}
-}
-
-.privacy-policy {
-	ol, li {
-	  list-style-type: decimal;
-	  // counter-reset: my-awesome-counter;
-	}
-
-	
-	cite {
-		font-size: .8em;
-	}
-	
-	cite + cite {
-		display: block;
-	}
-}
-
-
-
-
-
-
-
+// Privacy Policy page
+@import 'custom/page-privacy-policy';
