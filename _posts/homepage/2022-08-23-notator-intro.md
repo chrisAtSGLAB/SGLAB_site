@@ -5,7 +5,6 @@ categories: homepage
 app-name: "Notator"
 heading: Complexity is one of the great problems
 ---
-<div class="slide-1">
 <div class="ae-2" markdown="1">
 
 Notator
@@ -21,4 +20,4 @@ Notator
 Highlight important things, create diagrams with shapes on top of your documents. Or just start writing your thoughts from scratch.
 
 </div>
-</div>
+

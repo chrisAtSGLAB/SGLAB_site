@@ -4,7 +4,7 @@
 {% for post in site.categories.homepage %}
 {% if post.title == "Notator Intro" %}
 
-<section class="slide fade kenBurns" data-name="home">
+<section class="notator-intro slide fade kenBurns" data-name="home">
 	<div class="content">
 		<div class="container">
 			<div class="wrap top">
@@ -15,7 +15,9 @@
 						{% endif %}
 					{% endfor %}
 					
+					<div class="post-content">
 						{{ post.content }}
+					</div>
 					
 				</div>
 				

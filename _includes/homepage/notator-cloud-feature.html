@@ -1,7 +1,7 @@
 {% for post in site.categories.homepage %}
 {% if post.title == "Notator Cloud Feature" %}
 
-<section class="slide fade kenBurns">
+<section class="notator-cloud-feature slide fade kenBurns">
 	<div class="content">
 		<div class="container">
 			<div class="wrap">
@@ -20,27 +20,36 @@
 					</ul>
 
 					<ul class="grid later fixedSpaces equal center grid-73">
+						
+						{% for post in site.categories.notatorCloudFeature %}
+						{% if post.title == "Notator Cloud Feature 1" %}
 						<li class="col-4-12 ae-5">
-							<a href="#" class="cell-73 equalElement">
-								<i class="material-icons">cloud_circle</i>
-								<h3>Cloud enabled</h3>
-								<p class="small">Save Notator files to the cloud - if you choose to.</p>
-							</a>
+							<div class="cell-73 equalElement">
+								{{ post.content }}
+							</div>
 						</li>
+						{% endif %}
+						{% endfor %}
+						
+						{% for post in site.categories.notatorCloudFeature %}
+						{% if post.title == "Notator Cloud Feature 2" %}
 						<li class="col-4-12 ae-6">
-							<a href="#" class="cell-73 equalElement">
-								<i class="material-icons">devices_other</i>
-								<h3>Pickup progress</h3>
-								<p class="small">You can resume working on another device.</p>
-							</a>
+							<div class="cell-73 equalElement">
+								{{ post.content }}
+							</div>
 						</li>
+						{% endif %}
+						{% endfor %}
+						
+						{% for post in site.categories.notatorCloudFeature %}
+						{% if post.title == "Notator Cloud Feature 3" %}
 						<li class="col-4-12 ae-7">
-							<a href="#" class="cell-73 equalElement last">
-								<i class="material-icons">cloud_sync</i>
-								<h3>Worry-free syncing</h3>
-								<p class="small">Automatically syncs your most recent documents.</p>
-							</a>
+							<div class="cell-73 equalElement last">
+								{{ post.content }}
+							</div>
 						</li>
+						{% endif %}
+						{% endfor %}
 					</ul>
 				</div>
 
