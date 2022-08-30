@@ -3370,6 +3370,14 @@ form input.input-96[type="text"], form input.input-96[type="name"], form input.i
 
 .clearBoth:after { content: ""; clear: both; display: table; }
 
+.panel.top { background: rgba(0, 0, 0, 0.3); backdrop-filter: saturate(80%) blur(20px); -webkit-backdrop-filter: saturate(80%) blur(20px); }
+
+.panel.top .home { display: inline-block; font-size: 0; margin-top: 4px; }
+
+.homepage .panel.top { background: none; backdrop-filter: saturate(80%) blur(0px); -webkit-backdrop-filter: saturate(80%) blur(0px); }
+
+.sidebar { background: rgba(0, 0, 0, 0.3); backdrop-filter: saturate(80%) blur(20px); -webkit-backdrop-filter: saturate(80%) blur(20px); }
+
 .notator-cloud-feature ul.grid-73:hover .cell-73:after, .notator-cloud-feature .about .box-70:hover .info-70 p.grid-73:nth-child(4) .cell-73:after, .about .box-70:hover .info-70 .notator-cloud-feature p.grid-73:nth-child(4) .cell-73:after { opacity: 1; }
 
 .notator-cloud-feature ul.grid-73:hover li:last-child .cell-73:after, .notator-cloud-feature .about .box-70:hover .info-70 p.grid-73:nth-child(4) li:last-child .cell-73:after, .about .box-70:hover .info-70 .notator-cloud-feature p.grid-73:nth-child(4) li:last-child .cell-73:after { opacity: 0; }
@@ -3389,10 +3397,6 @@ form input.input-96[type="text"], form input.input-96[type="name"], form input.i
 .about .address .box-70 .info-70 { padding: 40px 30px 10px; }
 
 .support-content ul li { padding-left: 2%; padding-right: 2%; }
-
-.panel.top { background: rgba(0, 0, 0, 0.3); backdrop-filter: saturate(80%) blur(20px); -webkit-backdrop-filter: saturate(80%) blur(20px); }
-
-.panel.top .home { display: inline-block; font-size: 0; }
 
 .pad ul { list-style: none; }
 

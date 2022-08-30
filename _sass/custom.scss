@@ -1,3 +1,8 @@
+// Global
+@import 'custom/global-panel-top';
+@import 'custom/global-sidebar';
+
+
 // Homepage
 
 // Slide 1 : Intro
@@ -34,21 +39,7 @@
 
 
 
-.panel.top {
-	
-	// backdrop-filter: blur(10px);
-	// backdrop-filter: invert(80%);
-	// backdrop-filter: sepia(90%);
-	
-	background: rgba(0,0,0,0.3);
-	backdrop-filter: saturate(80%) blur(20px);
-	-webkit-backdrop-filter: saturate(80%) blur(20px);
-	
-	.home {
-		display: inline-block;
-		font-size: 0;
-	}
-}
+
 
 .pad {
 	ul {

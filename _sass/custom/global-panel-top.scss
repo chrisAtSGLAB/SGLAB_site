@@ -1,0 +1,19 @@
+.panel.top {
+	// make the bar blurry
+	background: rgba(0,0,0,0.3);
+	backdrop-filter: saturate(80%) blur(20px);
+	-webkit-backdrop-filter: saturate(80%) blur(20px);
+	
+	.home {
+		display: inline-block;
+		font-size: 0;
+		margin-top: 4px;
+	}
+}
+
+.homepage .panel.top {
+	// hide blurry effect on Homepage
+	background: none;
+	backdrop-filter: saturate(80%) blur(0px);
+	-webkit-backdrop-filter: saturate(80%) blur(0px);
+}
