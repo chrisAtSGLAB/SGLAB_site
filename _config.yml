@@ -11,3 +11,5 @@ sass:
 
 encoding: utf-8
 markdown: kramdown
+
+baseurl: "SGLAB_site"
