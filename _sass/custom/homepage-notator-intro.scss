@@ -5,3 +5,11 @@
 		}
 	}
 }
+
+.scrollable {
+	.notator-intro {
+		.container .wrap:not(.noSpaces), .container .wrap.spaceWrap, .container .wrap .spaceWrap {
+			padding-top: calc(15% + 50px);
+		}
+	}
+}

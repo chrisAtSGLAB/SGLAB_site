@@ -3370,15 +3370,61 @@ form input.input-96[type="text"], form input.input-96[type="name"], form input.i
 
 .clearBoth:after { content: ""; clear: both; display: table; }
 
+body, html { background: #000; }
+
 .panel.top { background: rgba(0, 0, 0, 0.3); backdrop-filter: saturate(80%) blur(20px); -webkit-backdrop-filter: saturate(80%) blur(20px); }
 
 .panel.top .home { display: inline-block; font-size: 0; margin-top: 4px; }
 
 .homepage .panel.top { background: none; backdrop-filter: saturate(80%) blur(0px); -webkit-backdrop-filter: saturate(80%) blur(0px); }
 
+.scrollable .panel.top { position: fixed; }
+
+.scrollable .homepage .panel.top { background: rgba(0, 0, 0, 0.3); backdrop-filter: saturate(80%) blur(20px); -webkit-backdrop-filter: saturate(80%) blur(20px); transition-timing-function: cubic-bezier(0.55, 0.05, 0.35, 0.95) !important; }
+
 .sidebar { background: rgba(0, 0, 0, 0.3); backdrop-filter: saturate(80%) blur(20px); -webkit-backdrop-filter: saturate(80%) blur(20px); }
 
 @media (max-width: 1023px) { .side.left, .support-content ul.side { display: none; } }
+
+.h1, h1 { font-size: 8.4rem; line-height: 10rem; margin-top: 8rem; padding-top: 0.0138rem; padding-bottom: 0.9862rem; margin-bottom: 1rem; }
+
+.h1.small, .support-content ul li p.h1, .about .box-70 .info-70 p.h1:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h1:last-child, h1.small { font-size: 6.4rem; line-height: 6rem; margin-top: 3rem; padding-top: 0.7248rem; padding-bottom: 0.2752rem; margin-bottom: 2rem; }
+
+.h1.large, h1.large { font-size: 9.6rem; line-height: 10rem; margin-top: 7rem; padding-top: 0.5872rem; padding-bottom: 0.4128rem; margin-bottom: 4rem; }
+
+.h1.huge, h1.huge { font-size: 14.6rem; line-height: 15rem; margin-top: 10rem; padding-top: 0.3097rem; padding-bottom: 0.6903rem; margin-bottom: 3rem; }
+
+.h2, h2 { font-size: 7.4rem; line-height: 8rem; margin-top: 6rem; padding-top: 0.3693rem; padding-bottom: 0.6307rem; margin-bottom: 1rem; }
+
+.h2.small, .support-content ul li p.h2, .about .box-70 .info-70 p.h2:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h2:last-child, h2.small { font-size: 5.6rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.0092rem; padding-bottom: 0.9908rem; margin-bottom: -1rem; }
+
+.h2.large, h2.large { font-size: 8.8rem; line-height: 9rem; margin-top: 6rem; padding-top: 0.3716rem; padding-bottom: 0.6284rem; margin-bottom: 1rem; }
+
+.h2.huge, h2.huge { font-size: 11.2rem; line-height: 12rem; margin-top: 8rem; padding-top: 0.0184rem; padding-bottom: 0.9816rem; margin-bottom: 1rem; }
+
+.h3, h3 { font-size: 6.4rem; line-height: 8rem; margin-top: 3rem; padding-top: 0.7248rem; padding-bottom: 0.2752rem; margin-bottom: 0rem; }
+
+.h3.small, .support-content ul li p.h3, .about .box-70 .info-70 p.h3:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h3:last-child, h3.small { font-size: 4.8rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2936rem; padding-bottom: 0.7064rem; margin-bottom: -1rem; }
+
+.h3.large, h3.large { font-size: 8rem; line-height: 10rem; margin-top: 4rem; padding-top: 0.156rem; padding-bottom: 0.844rem; margin-bottom: 0rem; }
+
+.h3.huge, h3.huge { font-size: 9.6rem; line-height: 10rem; margin-top: 5rem; padding-top: 0.5872rem; padding-bottom: 0.4128rem; margin-bottom: 2rem; }
+
+.h4, h4 { font-size: 5.2rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.1514rem; padding-bottom: 0.8486rem; margin-bottom: -1rem; }
+
+.h5, h5 { font-size: 4.4rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.4358rem; padding-bottom: 0.5642rem; margin-bottom: -1rem; }
+
+.h6, h6 { font-size: 3.6rem; line-height: 4rem; margin-top: 3rem; padding-top: 0.7202rem; padding-bottom: 0.2798rem; margin-bottom: 0rem; }
+
+p, .p, .p:not(.hero) + p, p:not(.hero) + p { font-size: 3.5rem; line-height: 5rem; margin-top: 0rem; padding-top: 0.25575rem; padding-bottom: 0.74425rem; margin-bottom: 1rem; text-rendering: optimizeLegibility; }
+
+p.micro, .p.micro, .p:not(.hero) + p.micro, p:not(.hero) + p.micro { font-size: 2.6rem; line-height: 4rem; margin-top: 2rem; padding-top: 0.0757rem; padding-bottom: 0.9243rem; margin-bottom: -1rem; }
+
+p.small, .support-content ul li p, .about .box-70 .info-70 p:nth-child(3), .notator-cloud-feature ul.grid-73 li div p:last-child, .p.small, .p:not(.hero) + p.small, p:not(.hero) + p.small { font-size: 3rem; line-height: 4rem; margin-top: 1rem; padding-top: 0.9335rem; padding-bottom: 0.0665rem; margin-bottom: 0rem; }
+
+p.hero, .notator-intro .post-content .ae-2 p, .p.hero, .p:not(.hero) + p.hero, p:not(.hero) + p.hero { font-size: 5rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 3rem; font-weight: 300; letter-spacing: -0.16rem; }
+
+.scrollable .notator-intro .container .wrap:not(.noSpaces), .scrollable .notator-intro .container .wrap.spaceWrap, .scrollable .notator-intro .container .wrap .spaceWrap { padding-top: calc(15% + 50px); }
 
 .notator-cloud-feature ul.grid-73:hover .cell-73:after { opacity: 1; }
 
@@ -3404,13 +3450,17 @@ body:not(.scroll) .about .container .wrap:not(.noSpaces), body:not(.scroll) .abo
 
 .support-content ul li { padding-left: 2%; padding-right: 2%; }
 
-.pad ul { list-style: none; }
+.career-detail-page .container .wrap:not(.noSpaces), .career-detail-page .container .wrap.spaceWrap, .career-detail-page .container .wrap .spaceWrap { padding: calc(5.56% + 50px) calc(2% + 15px); }
 
-.pad ul li { font-size: 22px; line-height: 1.385; opacity: 0.8; margin-bottom: .75em; }
+.career-detail-page .pad ul { list-style: none; }
 
-.pad ul li:before { content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */ color: red; /* Change the color */ font-weight: bold; /* If you want it to be bold */ display: inline-block; /* Needed to add space between the bullet and the text */ width: 1em; /* Also needed for space (tweak if needed) */ margin-left: -1em; /* Also needed for space (tweak if needed) */ }
+.career-detail-page .pad ul li { font-size: 3.5rem; line-height: 5rem; margin-top: 0rem; padding-top: 0.25575rem; padding-bottom: 0.74425rem; margin-bottom: 1rem; text-rendering: optimizeLegibility; opacity: 0.8; margin-bottom: .05em; }
 
-.pad ul + h2 { margin-top: 60px; }
+.career-detail-page .pad ul li:before { content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */ color: red; /* Change the color */ font-weight: bold; /* If you want it to be bold */ display: inline-block; /* Needed to add space between the bullet and the text */ width: 1em; /* Also needed for space (tweak if needed) */ margin-left: -1em; /* Also needed for space (tweak if needed) */ position: relative; left: 0.25em; }
+
+.career-detail-page .pad ul + h2 { margin-top: 0.5em; }
+
+.career-detail-page p + h2 { margin-top: 0.5em; }
 
 .privacy-policy ol, .privacy-policy li { list-style-type: decimal; }
 
