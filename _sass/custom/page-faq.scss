@@ -3,15 +3,34 @@
 		@extend .flex;
 		@extend .left;
 		@extend .margin-top-6;
-		
+		@extend .margin-bottom-6;
+
 		li {
 			@extend .col-6-12;
 			@extend .margin-bottom-1;
 			padding-left: 2%;
 			padding-right: 2%;
-			
+
 			p {
 				@extend .small;
+			}
+		}
+	}
+}
+
+.scrollable {
+	.support-content {
+		ul {
+			li {
+				h3 {
+					font-size: 1.35em;
+					line-height: 1.2em;
+				}
+
+				p {
+					font-size: 1.3em;
+					line-height: 1.2em;
+				}
 			}
 		}
 	}
