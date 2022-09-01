@@ -3434,11 +3434,17 @@ body, html { background: #000; }
 
 .notator-cloud-feature ul.grid-73 li div p:first-child { margin: 0; }
 
+.notator-cloud-feature ul.grid-73 li div p:last-child { margin-top: 0 !important; }
+
+@media (max-width: 1024px) { .notator-cloud-feature .grid > .col-4-12 { max-width: 100%; text-align: left; } .notator-cloud-feature .grid > .col-4-12 i { margin-bottom: 0; } .notator-cloud-feature .grid > .col-4-12 h3 { margin-top: 0; } }
+
 .about .container .wrap:not(.noSpaces), .about .container .wrap.spaceWrap, .about .container .wrap .spaceWrap { padding-bottom: calc(5.56% + 50px); }
 
 .about .box-70 .info-70 p:nth-child(1) { margin-top: 0; }
 
 .about .box-70:hover .info-70 p:nth-child(4) { color: #fff !important; }
+
+.about .address { letter-spacing: initial; }
 
 .about .address .box-70 { max-width: initial; text-align: initial; }
 

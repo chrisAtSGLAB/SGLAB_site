@@ -6,11 +6,11 @@
 			.cell-73:after {
 				opacity: 1;
 			}
-			
+
 			li:last-child {
 				.cell-73:after {
 					opacity: 0;
-				}	
+				}
 			}
 		}
 
@@ -32,8 +32,28 @@
 
 				&:last-child {
 					@extend .small;
+					margin-top: 0 !important;
 				}
 			}
 		}
+	}
+
+	.grid > .col-4-12 {
+		@media (max-width: 1024px) {
+			max-width: 100%;
+
+			text-align: left;
+
+			i {
+				margin-bottom: 0;
+			}
+
+			h3 {
+				margin-top: 0;
+			}
+
+
+		}
+
 	}
 }
