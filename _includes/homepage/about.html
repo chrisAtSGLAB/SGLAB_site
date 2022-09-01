@@ -19,7 +19,7 @@
 					{% endfor %}
 
 					<ul class="slide-5 grid fixedSpaces equal fromCenter">
-						
+
 						{% for post in site.categories.about %}
 						{% if post.title == "About Contact" %}
 						<li class="col-4-12">
@@ -38,7 +38,7 @@
 						</li>
 						{% endif %}
 						{% endfor %}
-						
+
 						{% for post in site.categories.about %}
 						{% if post.title == "About FAQ" %}
 						<li class="col-4-12">
@@ -57,7 +57,7 @@
 						</li>
 						{% endif %}
 						{% endfor %}
-						
+
 						{% for post in site.categories.about %}
 						{% if post.title == "About Careers" %}
 						<li class="col-4-12">
@@ -76,12 +76,13 @@
 						</li>
 						{% endif %}
 						{% endfor %}
-						
+
 					</ul>
 				</div>
-				
+				<div class="ae-5">
 				{{ post.content }}
-				
+				</div>
+
 			</div>
 
 		</div>

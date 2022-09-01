@@ -3386,6 +3386,8 @@ form input.input-96[type="text"], form input.input-96[type="name"], form input.i
 
 .notator-cloud-feature ul.grid-73 li div p:first-child { margin: 0; }
 
+.about .container .wrap:not(.noSpaces), .about .container .wrap.spaceWrap, .about .container .wrap .spaceWrap { padding-bottom: calc(5.56% + 50px); }
+
 .about .box-70 .info-70 p:nth-child(1) { margin-top: 0; }
 
 .about .box-70:hover .info-70 p:nth-child(4) { color: #fff !important; }
@@ -3395,6 +3397,8 @@ form input.input-96[type="text"], form input.input-96[type="name"], form input.i
 @media (max-width: 1023px) { .about .address .box-70 { max-width: 400px; } }
 
 .about .address .box-70 .info-70 { padding: 40px 30px 10px; }
+
+body:not(.scroll) .about .container .wrap:not(.noSpaces), body:not(.scroll) .about .container .wrap.spaceWrap, body:not(.scroll) .about .container .wrap .spaceWrap { padding-bottom: 10px; }
 
 .support-content ul li { padding-left: 2%; padding-right: 2%; }
 

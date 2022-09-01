@@ -3,12 +3,15 @@
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 
-	<!-- Page Title -->
-	<title>{{ page.title }}</title>
+	{% if page.layout == 'default' %}
+	<title>{{ site.name }}</title>
+	{% else %}
+	<title>{{ page.title }} - {{ site.name }}</title>
+	{% endif %}
 
 	<!-- Fonts and Material Icons -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Material+Icons" rel="stylesheet" type="text/css"/>
-	
+
 
 	<!-- Styles -->
 	<!-- <link href="css/slides.css" rel="stylesheet" type="text/css"> -->
@@ -17,13 +20,17 @@
 	{% include head-favicon.html %}
 	<!-- Custom Styles -->
 	<!--link href="css/custom.css" rel="stylesheet" type="text/css"-->
+	<!-- Custom Scripts -->
+	<script src={{ "/assets/js/custom.js" | relative_url }} type="text/javascript" name="custom-scripts"></script>
 
 	<!-- Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="{{ "/assets/js/plugins.js" | relative_url }}" type="text/javascript" name="plugins"></script>
 	<script src="{{ "/assets/js/slides.js" | relative_url }}" type="text/javascript" name="main-scripts"></script>
+	<script type="text/javascript" name="main-scripts">
+		$(window).resize(function() {
+			classChange();
+		});
+	</script>
 
-	<!-- Custom Scripts -->
-	<!--script src="js/custom.js" type="text/javascript" name="custom-scripts"></script-->
-	 
 </head>

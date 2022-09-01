@@ -1,6 +1,7 @@
 ---
 layout: support
 permalink: /faq/
+title: FAQs
 ---
 <div class="fix-10-12 toCenter">
 <h1 class="ae-1" markdown="1">
