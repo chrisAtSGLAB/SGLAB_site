@@ -1,14 +1,38 @@
 .privacy-policy {
-	ol, li {
+	h1 {
+		@extend .h2;
+	}
+
+	h2 {
+		margin-bottom: 2rem;
+	}
+
+	ol, ol li {
 	  list-style-type: decimal;
 	  // counter-reset: my-awesome-counter;
 	}
 
-	
+	ul, ul li {
+	  list-style-type: circle;
+	  // counter-reset: my-awesome-counter;
+	}
+
+	ul li {
+		margin-left: 1em;
+		margin-bottom: 0.25em;
+
+		@extend .p;
+	}
+
+	li h3 {
+		line-height: 1.25em;
+	}
+
+
 	cite {
 		font-size: .8em;
 	}
-	
+
 	cite + cite {
 		display: block;
 	}

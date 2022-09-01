@@ -4,6 +4,7 @@ permalink: /privacy-policy/
 title: Privacy Policy
 ---
 ## Personal Data Protection Policy
+
 HUUBAP PTE. LTD. seriously recognizes the importance of personal data of customers as comprising part of their privacy and, if we handle personal data of customers with respect to the provision of the attendance management system using cloud and its ancillary service, we respect our customers and respond to the customers’ expectation and trust to us by adopting internal rules for protection of personal data and compliance of laws relating thereto, establishing our organizational system and making efforts to properly protect personal data.
 
 1. ### Collection, Use and Disclosure of Personal Data
@@ -50,7 +51,7 @@ Provided, however, that this shall not apply to the following cases:
 	* where the disclosure of personal data to an outsourcing contractors is required within the scope of the original purposes of the use.
 	* In the event the disclosure of personal data to the outsourcing contractors is required, we properly supervise them regarding the information management; and
 	* where the disclosure is permitted under the Personal Data Protection Act.
-	
+
 4. ### Technical Information, such as Log-Files, Cookies and Web Beacons
 This Website collects log-files, sends cookies (including sending cookies from third-parties’ servers to measure advertising effects), and installs web beacons to collect information such as the users’ IP addresses, the numbers of accesses, browsers, OS and other user terminals, etc. You may refuse to accept cookies by setting up your browser, but in that case, some of the services on this Website may not be available. Such information is collected for the purpose of analyzing trends in the use of this Website and investigating the causes of problems when they occur, and is not used for the purpose of identifying individuals.
 
@@ -98,25 +99,31 @@ Email: privacy@huubap.com
 	* for using as statistical materials (on a no-name basis);
 	* for labor management of employees; and
 	* for recruitment management
-	
-4. Where to Request for Complaints about the Handling of the Personal Data subject to Disclosure
+
+4. ### Where to Request for Complaints about the Handling of the Personal Data subject to Disclosure
 For complaints and inquiries regarding the handling of the personal data subject to disclosure, please contact the contact information listed in the contact information above.
-5. Request for Disclosure, etc.
+
+5. ### Request for Disclosure, etc.
 If you request notification of the purpose of use, disclosure, correction, addition or deletion of the contents, suspension of use, or deletion of the personal data subject to disclosure, please contact the contact information listed below. We will respond to your request for disclosure, etc.
-– Application for Requests for Disclosure, etc.
-HUUBAP PTE. LTD.
-[Address: 27 West Coast Highway, #02-22, Singapore 117867]
-[Email. privacy@huubap.com]
-[Tel. +65-6690-8821]
-– Acceptance of Requests for Disclosure
-Please contact us via Email or visit us in person.
-– Method of Identity Confirmation
-We will check with your license, basic resident register card (with photo) and other documents. If you contact us via phone, we will give you a return call.
-– Fees
-No charge. Provided, however, that in the event of any changes in the fee, we will announce such changes in advance.
-– The name of the authorized personal data protection organization to which Human Technologies, Inc., our parent company, belongs and the contact information to which the request is made for the resolution of the complaint
-JIPDEC
-Public Relations Office
-Roppongi First Building, 9-9 Roppongi 1-chome,
-Minato-ku Tokyo, 106-0032 Japan
-Tel: 03-5860-7565, 0120-700-779
+	* **Application for Requests for Disclosure, etc.**<br/>
+	HUUBAP PTE. LTD.<br/>
+	<cite>[Address: 27 West Coast Highway, #02-22, Singapore 117867]</cite>
+	<cite>[Email. privacy@huubap.com]</cite>
+	<cite>[Tel. +65-6690-8821]</cite>
+
+	* **Acceptance of Requests for Disclosure**<br/>
+	Please contact us via Email or visit us in person.
+
+	* **Method of Identity Confirmation**<br/>
+	We will check with your license, basic resident register card (with photo) and other documents. If you contact us via phone, we will give you a return call.
+
+	* **Fees**<br/>
+	No charge. Provided, however, that in the event of any changes in the fee, we will announce such changes in advance.
+
+	* The name of the authorized personal data protection organization to which Human Technologies, Inc., our parent company, belongs and the contact information to which the request is made for the resolution of the complaint
+
+<cite>JIPDEC</cite>
+<cite>Public Relations Office</cite>
+<cite>Roppongi First Building, 9-9 Roppongi 1-chome,</cite>
+<cite>Minato-ku Tokyo, 106-0032 Japan</cite>
+<cite>Tel: 03-5860-7565, 0120-700-779</cite>

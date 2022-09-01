@@ -77,15 +77,15 @@ h1.small, .h1.small, .support-content ul li p.h1, .about .box-70 .info-70 p.h1:n
 
 h1.micro, .h1.micro { font-size: 34px; }
 
-h2, .h2 { font-size: 35px; line-height: 1.17; margin-bottom: 15px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 400; }
+h2, .h2, .privacy-policy h1 { font-size: 35px; line-height: 1.17; margin-bottom: 15px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 400; }
 
-h2.uppercase, .h2.uppercase { letter-spacing: 0.2em !important; }
+h2.uppercase, .h2.uppercase, .privacy-policy h1.uppercase { letter-spacing: 0.2em !important; }
 
-h2.small, .h2.small, .support-content ul li p.h2, .about .box-70 .info-70 p.h2:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h2:last-child { font-size: 23px; }
+h2.small, .h2.small, .privacy-policy h1.small, .support-content ul li p.h2, .about .box-70 .info-70 p.h2:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h2:last-child { font-size: 23px; }
 
-h2.micro, .h2.micro { font-size: 19px; }
+h2.micro, .h2.micro, .privacy-policy h1.micro { font-size: 19px; }
 
-h2.huge, .h2.huge { font-size: 45px; }
+h2.huge, .h2.huge, .privacy-policy h1.huge { font-size: 45px; }
 
 h3, .h3 { font-size: 22px; margin-bottom: 12px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 600; }
 
@@ -107,21 +107,21 @@ h4.micro, .h4.micro { font-size: 5px; }
 
 h5, .h5 { font-size: 19px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 600; margin-bottom: 3px; }
 
-p, .p { font-size: 24px; line-height: 1.385; margin-bottom: 30px; opacity: 0.8; }
+p, .p, .privacy-policy ul li { font-size: 24px; line-height: 1.385; margin-bottom: 30px; opacity: 0.8; }
 
-p.hero, .notator-intro .post-content .ae-2 p, .p.hero { font-size: 36px; line-height: 1.25; letter-spacing: -1px; font-weight: 300; margin-bottom: 25px; }
+p.hero, .notator-intro .post-content .ae-2 p, .p.hero, .privacy-policy ul li.hero { font-size: 36px; line-height: 1.25; letter-spacing: -1px; font-weight: 300; margin-bottom: 25px; }
 
-p.large, .p.large { font-size: 32px; line-height: 1.4; }
+p.large, .p.large, .privacy-policy ul li.large { font-size: 32px; line-height: 1.4; }
 
-p.small, .support-content ul li p, .about .box-70 .info-70 p:nth-child(3), .notator-cloud-feature ul.grid-73 li div p:last-child, .p.small { font-size: 22px; line-height: 1.36; margin-bottom: 20px; }
+p.small, .support-content ul li p, .about .box-70 .info-70 p:nth-child(3), .notator-cloud-feature ul.grid-73 li div p:last-child, .p.small, .privacy-policy ul li.small { font-size: 22px; line-height: 1.36; margin-bottom: 20px; }
 
-p.tiny, .p.tiny { font-size: 20px; line-height: 1.29441; margin-bottom: 20px; }
+p.tiny, .p.tiny, .privacy-policy ul li.tiny { font-size: 20px; line-height: 1.29441; margin-bottom: 20px; }
 
-p.micro, .p.micro { font-size: 17px; line-height: 1.22727273; margin-bottom: 20px; margin-top: 2px; }
+p.micro, .p.micro, .privacy-policy ul li.micro { font-size: 17px; line-height: 1.22727273; margin-bottom: 20px; margin-top: 2px; }
 
-p:not(.hero) + p, .p:not(.hero) + p { margin-top: -20px; }
+p:not(.hero) + p, .p:not(.hero) + p, .privacy-policy ul li:not(.hero) + p { margin-top: -20px; }
 
-p + h2, p + .h2, .p + h2, .p + .h2 { margin-top: 60px; }
+p + h2, p + .h2, .privacy-policy p + h1, .p + h2, .privacy-policy ul li + h2, .p + .h2, .privacy-policy ul li + .h2, .privacy-policy .p + h1, .privacy-policy ul li + h1 { margin-top: 60px; }
 
 small { font-size: 17px; line-height: 1.3; }
 
@@ -1536,13 +1536,13 @@ body { font-size: 16px; }
 
 .article .h1.huge, .article h1.huge { font-size: 14.6rem; line-height: 15rem; margin-top: 10rem; padding-top: 0.3097rem; padding-bottom: 0.6903rem; margin-bottom: 3rem; }
 
-.article .h2, .article h2 { font-size: 7.4rem; line-height: 8rem; margin-top: 6rem; padding-top: 0.3693rem; padding-bottom: 0.6307rem; margin-bottom: 1rem; }
+.article .h2, .article .privacy-policy h1, .privacy-policy .article h1, .article h2 { font-size: 7.4rem; line-height: 8rem; margin-top: 6rem; padding-top: 0.3693rem; padding-bottom: 0.6307rem; margin-bottom: 1rem; }
 
-.article .h2.small, .article .support-content ul li p.h2, .support-content ul li .article p.h2, .article .about .box-70 .info-70 p.h2:nth-child(3), .about .box-70 .info-70 .article p.h2:nth-child(3), .article .notator-cloud-feature ul.grid-73 li div p.h2:last-child, .notator-cloud-feature ul.grid-73 li div .article p.h2:last-child, .article h2.small { font-size: 5.6rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.0092rem; padding-bottom: 0.9908rem; margin-bottom: -1rem; }
+.article .h2.small, .article .privacy-policy h1.small, .privacy-policy .article h1.small, .article .support-content ul li p.h2, .support-content ul li .article p.h2, .article .about .box-70 .info-70 p.h2:nth-child(3), .about .box-70 .info-70 .article p.h2:nth-child(3), .article .notator-cloud-feature ul.grid-73 li div p.h2:last-child, .notator-cloud-feature ul.grid-73 li div .article p.h2:last-child, .article h2.small { font-size: 5.6rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.0092rem; padding-bottom: 0.9908rem; margin-bottom: -1rem; }
 
-.article .h2.large, .article h2.large { font-size: 8.8rem; line-height: 9rem; margin-top: 6rem; padding-top: 0.3716rem; padding-bottom: 0.6284rem; margin-bottom: 1rem; }
+.article .h2.large, .article .privacy-policy h1.large, .privacy-policy .article h1.large, .article h2.large { font-size: 8.8rem; line-height: 9rem; margin-top: 6rem; padding-top: 0.3716rem; padding-bottom: 0.6284rem; margin-bottom: 1rem; }
 
-.article .h2.huge, .article h2.huge { font-size: 11.2rem; line-height: 12rem; margin-top: 8rem; padding-top: 0.0184rem; padding-bottom: 0.9816rem; margin-bottom: 1rem; }
+.article .h2.huge, .article .privacy-policy h1.huge, .privacy-policy .article h1.huge, .article h2.huge { font-size: 11.2rem; line-height: 12rem; margin-top: 8rem; padding-top: 0.0184rem; padding-bottom: 0.9816rem; margin-bottom: 1rem; }
 
 .article .h3, .article h3 { font-size: 6.4rem; line-height: 8rem; margin-top: 3rem; padding-top: 0.7248rem; padding-bottom: 0.2752rem; margin-bottom: 0rem; }
 
@@ -1558,13 +1558,13 @@ body { font-size: 16px; }
 
 .article .h6, .article h6 { font-size: 3.6rem; line-height: 4rem; margin-top: 3rem; padding-top: 0.7202rem; padding-bottom: 0.2798rem; margin-bottom: 0rem; }
 
-.article p, .article .p, .article .p:not(.hero) + p, .article p:not(.hero) + p { font-size: 3.5rem; line-height: 5rem; margin-top: 0rem; padding-top: 0.25575rem; padding-bottom: 0.74425rem; margin-bottom: 1rem; text-rendering: optimizeLegibility; }
+.article p, .article .p, .article .privacy-policy ul li, .privacy-policy ul .article li, .article .p:not(.hero) + p, .article .privacy-policy ul li:not(.hero) + p, .privacy-policy ul .article li:not(.hero) + p, .article p:not(.hero) + p { font-size: 3.5rem; line-height: 5rem; margin-top: 0rem; padding-top: 0.25575rem; padding-bottom: 0.74425rem; margin-bottom: 1rem; text-rendering: optimizeLegibility; }
 
-.article p.micro, .article .p.micro, .article .p:not(.hero) + p.micro, .article p:not(.hero) + p.micro { font-size: 2.6rem; line-height: 4rem; margin-top: 2rem; padding-top: 0.0757rem; padding-bottom: 0.9243rem; margin-bottom: -1rem; }
+.article p.micro, .article .p.micro, .article .privacy-policy ul li.micro, .privacy-policy ul .article li.micro, .article .p:not(.hero) + p.micro, .article p:not(.hero) + p.micro { font-size: 2.6rem; line-height: 4rem; margin-top: 2rem; padding-top: 0.0757rem; padding-bottom: 0.9243rem; margin-bottom: -1rem; }
 
-.article p.small, .article .support-content ul li p, .support-content ul li .article p, .article .about .box-70 .info-70 p:nth-child(3), .about .box-70 .info-70 .article p:nth-child(3), .article .notator-cloud-feature ul.grid-73 li div p:last-child, .notator-cloud-feature ul.grid-73 li div .article p:last-child, .article .p.small, .article .p:not(.hero) + p.small, .article p:not(.hero) + p.small { font-size: 3rem; line-height: 4rem; margin-top: 1rem; padding-top: 0.9335rem; padding-bottom: 0.0665rem; margin-bottom: 0rem; }
+.article p.small, .article .support-content ul li p, .support-content ul li .article p, .article .about .box-70 .info-70 p:nth-child(3), .about .box-70 .info-70 .article p:nth-child(3), .article .notator-cloud-feature ul.grid-73 li div p:last-child, .notator-cloud-feature ul.grid-73 li div .article p:last-child, .article .p.small, .article .privacy-policy ul li.small, .privacy-policy ul .article li.small, .article .p:not(.hero) + p.small, .article p:not(.hero) + p.small { font-size: 3rem; line-height: 4rem; margin-top: 1rem; padding-top: 0.9335rem; padding-bottom: 0.0665rem; margin-bottom: 0rem; }
 
-.article p.hero, .article .notator-intro .post-content .ae-2 p, .notator-intro .post-content .ae-2 .article p, .article .p.hero, .article .p:not(.hero) + p.hero, .article p:not(.hero) + p.hero { font-size: 5rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 3rem; font-weight: 300; letter-spacing: -0.16rem; }
+.article p.hero, .article .notator-intro .post-content .ae-2 p, .notator-intro .post-content .ae-2 .article p, .article .p.hero, .article .privacy-policy ul li.hero, .privacy-policy ul .article li.hero, .article .p:not(.hero) + p.hero, .article p:not(.hero) + p.hero { font-size: 5rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 3rem; font-weight: 300; letter-spacing: -0.16rem; }
 
 .article strong { font-weight: 600; }
 
@@ -3394,15 +3394,15 @@ body, html { background: #000; }
 
 .scrollable .h1.huge, .scrollable h1.huge { font-size: 12rem; line-height: 15rem; margin-top: 10rem; padding-top: 0.234rem; padding-bottom: 0.766rem; margin-bottom: 3rem; }
 
-.scrollable .h2, .scrollable h2 { font-size: 5rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 0rem; }
+.scrollable .h2, .scrollable .privacy-policy h1, .privacy-policy .scrollable h1, .scrollable h2 { font-size: 5rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 0rem; }
 
-.scrollable .h2.small, .scrollable .support-content ul li p.h2, .support-content ul li .scrollable p.h2, .scrollable .about .box-70 .info-70 p.h2:nth-child(3), .about .box-70 .info-70 .scrollable p.h2:nth-child(3), .scrollable .notator-cloud-feature ul.grid-73 li div p.h2:last-child, .notator-cloud-feature ul.grid-73 li div .scrollable p.h2:last-child, .scrollable h2.small { font-size: 5.6rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.0092rem; padding-bottom: 0.9908rem; margin-bottom: -1rem; }
+.scrollable .h2.small, .scrollable .privacy-policy h1.small, .privacy-policy .scrollable h1.small, .scrollable .support-content ul li p.h2, .support-content ul li .scrollable p.h2, .scrollable .about .box-70 .info-70 p.h2:nth-child(3), .about .box-70 .info-70 .scrollable p.h2:nth-child(3), .scrollable .notator-cloud-feature ul.grid-73 li div p.h2:last-child, .notator-cloud-feature ul.grid-73 li div .scrollable p.h2:last-child, .scrollable h2.small { font-size: 5.6rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.0092rem; padding-bottom: 0.9908rem; margin-bottom: -1rem; }
 
-.scrollable .h2.large, .scrollable h2.large { font-size: 8.8rem; line-height: 9rem; margin-top: 6rem; padding-top: 0.3716rem; padding-bottom: 0.6284rem; margin-bottom: 1rem; }
+.scrollable .h2.large, .scrollable .privacy-policy h1.large, .privacy-policy .scrollable h1.large, .scrollable h2.large { font-size: 8.8rem; line-height: 9rem; margin-top: 6rem; padding-top: 0.3716rem; padding-bottom: 0.6284rem; margin-bottom: 1rem; }
 
-.scrollable .h2.huge, .scrollable h2.huge { font-size: 11.2rem; line-height: 12rem; margin-top: 8rem; padding-top: 0.0184rem; padding-bottom: 0.9816rem; margin-bottom: 1rem; }
+.scrollable .h2.huge, .scrollable .privacy-policy h1.huge, .privacy-policy .scrollable h1.huge, .scrollable h2.huge { font-size: 11.2rem; line-height: 12rem; margin-top: 8rem; padding-top: 0.0184rem; padding-bottom: 0.9816rem; margin-bottom: 1rem; }
 
-.scrollable .h3, .scrollable h3 { font-size: 6.4rem; line-height: 8rem; margin-top: 3rem; padding-top: 0.7248rem; padding-bottom: 0.2752rem; margin-bottom: 0rem; }
+.scrollable .h3, .scrollable h3 { font-size: 3.15rem; line-height: 5rem; margin-top: 1rem; padding-top: 0.380175rem; padding-bottom: 0.619825rem; margin-bottom: -1rem; }
 
 .scrollable .h3.small, .scrollable .support-content ul li p.h3, .support-content ul li .scrollable p.h3, .scrollable .about .box-70 .info-70 p.h3:nth-child(3), .about .box-70 .info-70 .scrollable p.h3:nth-child(3), .scrollable .notator-cloud-feature ul.grid-73 li div p.h3:last-child, .notator-cloud-feature ul.grid-73 li div .scrollable p.h3:last-child, .scrollable h3.small { font-size: 4.8rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2936rem; padding-bottom: 0.7064rem; margin-bottom: -1rem; }
 
@@ -3416,13 +3416,13 @@ body, html { background: #000; }
 
 .scrollable .h6, .scrollable h6 { font-size: 3.6rem; line-height: 4rem; margin-top: 3rem; padding-top: 0.7202rem; padding-bottom: 0.2798rem; margin-bottom: 0rem; }
 
-.scrollable p, .scrollable .p, .scrollable .p:not(.hero) + p, .scrollable p:not(.hero) + p { font-size: 3.5rem; line-height: 5rem; margin-top: 0rem; padding-top: 0.25575rem; padding-bottom: 0.74425rem; margin-bottom: 1rem; text-rendering: optimizeLegibility; }
+.scrollable p, .scrollable .p, .scrollable .privacy-policy ul li, .privacy-policy ul .scrollable li, .scrollable .p:not(.hero) + p, .scrollable .privacy-policy ul li:not(.hero) + p, .privacy-policy ul .scrollable li:not(.hero) + p, .scrollable p:not(.hero) + p { font-size: 3.42rem; line-height: 4rem; margin-top: -1rem; padding-top: 0.78419rem; padding-bottom: 0.21581rem; margin-bottom: 2rem; text-rendering: optimizeLegibility; }
 
-.scrollable p.micro, .scrollable .p.micro, .scrollable .p:not(.hero) + p.micro, .scrollable p:not(.hero) + p.micro { font-size: 2.6rem; line-height: 4rem; margin-top: 2rem; padding-top: 0.0757rem; padding-bottom: 0.9243rem; margin-bottom: -1rem; }
+.scrollable p.micro, .scrollable .p.micro, .scrollable .privacy-policy ul li.micro, .privacy-policy ul .scrollable li.micro, .scrollable .p:not(.hero) + p.micro, .scrollable p:not(.hero) + p.micro { font-size: 2.6rem; line-height: 4rem; margin-top: 2rem; padding-top: 0.0757rem; padding-bottom: 0.9243rem; margin-bottom: -1rem; }
 
-.scrollable p.small, .scrollable .support-content ul li p, .support-content ul li .scrollable p, .scrollable .about .box-70 .info-70 p:nth-child(3), .about .box-70 .info-70 .scrollable p:nth-child(3), .scrollable .notator-cloud-feature ul.grid-73 li div p:last-child, .notator-cloud-feature ul.grid-73 li div .scrollable p:last-child, .scrollable .p.small, .scrollable .p:not(.hero) + p.small, .scrollable p:not(.hero) + p.small { font-size: 3rem; line-height: 4rem; margin-top: 1rem; padding-top: 0.9335rem; padding-bottom: 0.0665rem; margin-bottom: 0rem; }
+.scrollable p.small, .scrollable .support-content ul li p, .support-content ul li .scrollable p, .scrollable .about .box-70 .info-70 p:nth-child(3), .about .box-70 .info-70 .scrollable p:nth-child(3), .scrollable .notator-cloud-feature ul.grid-73 li div p:last-child, .notator-cloud-feature ul.grid-73 li div .scrollable p:last-child, .scrollable .p.small, .scrollable .privacy-policy ul li.small, .privacy-policy ul .scrollable li.small, .scrollable .p:not(.hero) + p.small, .scrollable p:not(.hero) + p.small { font-size: 3rem; line-height: 4rem; margin-top: 1rem; padding-top: 0.9335rem; padding-bottom: 0.0665rem; margin-bottom: 0rem; }
 
-.scrollable p.hero, .scrollable .notator-intro .post-content .ae-2 p, .notator-intro .post-content .ae-2 .scrollable p, .scrollable .p.hero, .scrollable .p:not(.hero) + p.hero, .scrollable p:not(.hero) + p.hero { font-size: 5rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 3rem; font-weight: 300; letter-spacing: -0.16rem; }
+.scrollable p.hero, .scrollable .notator-intro .post-content .ae-2 p, .notator-intro .post-content .ae-2 .scrollable p, .scrollable .p.hero, .scrollable .privacy-policy ul li.hero, .privacy-policy ul .scrollable li.hero, .scrollable .p:not(.hero) + p.hero, .scrollable p:not(.hero) + p.hero { font-size: 5rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 3rem; font-weight: 300; letter-spacing: -0.16rem; }
 
 .scrollable .notator-intro .container .wrap:not(.noSpaces), .scrollable .notator-intro .container .wrap.spaceWrap, .scrollable .notator-intro .container .wrap .spaceWrap { padding-top: calc(15% + 50px); }
 
@@ -3466,7 +3466,15 @@ body:not(.scroll) .about .container .wrap:not(.noSpaces), body:not(.scroll) .abo
 
 .career-detail-page p + h2 { margin-top: 0.5em; }
 
-.privacy-policy ol, .privacy-policy li { list-style-type: decimal; }
+.privacy-policy h2 { margin-bottom: 2rem; }
+
+.privacy-policy ol, .privacy-policy ol li { list-style-type: decimal; }
+
+.privacy-policy ul, .privacy-policy ul li { list-style-type: circle; }
+
+.privacy-policy ul li { margin-left: 1em; margin-bottom: 0.25em; }
+
+.privacy-policy li h3 { line-height: 1.25em; }
 
 .privacy-policy cite { font-size: .8em; }
 
