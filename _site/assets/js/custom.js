@@ -2,6 +2,7 @@ var root = document.getElementsByTagName( 'html' )[0]; // '0' to assign the firs
 
 
 function classChange() {
+	console.log('=======classChange');
 	if ($(window).width() < 1024) {
 		console.log('Less than 1024');
 
@@ -25,4 +26,3 @@ function classChange() {
 }
 
 window.onload = classChange;
-window.resize = classChange;

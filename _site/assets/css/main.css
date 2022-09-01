@@ -3378,6 +3378,8 @@ form input.input-96[type="text"], form input.input-96[type="name"], form input.i
 
 .sidebar { background: rgba(0, 0, 0, 0.3); backdrop-filter: saturate(80%) blur(20px); -webkit-backdrop-filter: saturate(80%) blur(20px); }
 
+@media (max-width: 1023px) { .side.left, .support-content ul.side { display: none; } }
+
 .notator-cloud-feature ul.grid-73:hover .cell-73:after { opacity: 1; }
 
 .notator-cloud-feature ul.grid-73:hover li:last-child .cell-73:after { opacity: 0; }
