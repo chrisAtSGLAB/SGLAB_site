@@ -5,11 +5,11 @@ categories: homepage
 app-name: "Notator"
 heading: Complexity is one of the great problems
 ---
-<div class="ae-2" markdown="1">
+<!-- <div class="ae-2" markdown="1">
 
 Notator
 
-</div>
+</div> -->
 <div class="ae-3" markdown="1">
 
 # Annotate anything

@@ -10,7 +10,7 @@
 		@include plumber(
 			$font-size: 8.4,
 			$line-height: 10,
-			$leading-top: 8,
+			$leading-top: 4,
 			$leading-bottom: 2,
 			$baseline: $header-baseline
 		);

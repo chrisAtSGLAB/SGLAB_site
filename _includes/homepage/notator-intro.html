@@ -11,16 +11,22 @@
 				<div class="fix-10-12 toCenter">
 					{% for image in site.static_files %}
 						{% if image.path contains "img/homepage/notator-intro/app-icon" %}
-							<img class="margin-bottom-1 ae-1 fromCenter" src="{{ site.baseurl }}{{ image.path }}" alt="image" width="70" />
+							<img class="margin-bottom-1 ae-1 fromCenter" src="{{ site.baseurl }}{{ image.path }}" alt="image" width="100" />
 						{% endif %}
 					{% endfor %}
-					
+
+					{% for image in site.static_files %}
+						{% if image.path contains "img/homepage/notator-intro/app-label" %}
+							<img class="margin-bottom-1 ae-2 fromCenter" src="{{ site.baseurl }}{{ image.path }}" alt="Notator" width="212" />
+						{% endif %}
+					{% endfor %}
+
 					<div class="post-content">
 						{{ post.content }}
 					</div>
-					
+
 				</div>
-				
+
 				{% for image in site.static_files %}
 					{% if image.path contains 'img/homepage/notator-intro/object' %}
 				<div class="fix-12-12 ae-5">
@@ -31,7 +37,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	{% for image in site.static_files %}
 		{% if image.path contains 'img/homepage/notator-intro/bg' %}
 	<div class="background" style="background-image:url({{ site.baseurl }}{{ image.path }})"></div>

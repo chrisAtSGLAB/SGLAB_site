@@ -109,7 +109,7 @@ h5, .h5 { font-size: 19px; font-family: -apple-system, BlinkMacSystemFont, "Sego
 
 p, .p, .privacy-policy ul li { font-size: 24px; line-height: 1.385; margin-bottom: 30px; opacity: 0.8; }
 
-p.hero, .notator-intro .post-content .ae-2 p, .p.hero, .privacy-policy ul li.hero { font-size: 36px; line-height: 1.25; letter-spacing: -1px; font-weight: 300; margin-bottom: 25px; }
+p.hero, .p.hero, .privacy-policy ul li.hero { font-size: 36px; line-height: 1.25; letter-spacing: -1px; font-weight: 300; margin-bottom: 25px; }
 
 p.large, .p.large, .privacy-policy ul li.large { font-size: 32px; line-height: 1.4; }
 
@@ -129,7 +129,7 @@ small .small, small .support-content ul li p, .support-content ul li small p, sm
 
 .uppercase { text-transform: uppercase !important; letter-spacing: 0.15em !important; text-indent: 0.1em !important; font-weight: 700 !important; }
 
-@media (max-width: 767px) { h1, .h1, h1.huge, .h1.huge, h1.big, .h1.big, .about .box-70 .info-70 h3.h1:nth:child(2) { font-size: 52px; margin-bottom: 20px; } p.hero, .notator-intro .post-content .ae-2 p { font-size: 32px; } h1.small, .h1.small, .support-content ul li p.h1, .about .box-70 .info-70 p.h1:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h1:last-child { font-size: 40px; } .mobileCrop { margin: 0 !important; } .mobileCropBottom { margin-bottom: 0 !important; } .mobileCropTop { margin-top: 0 !important; } .mobileCropLeft { margin-left: 0 !important; } .mobileCropRight { margin-right: 0 !important; } }
+@media (max-width: 767px) { h1, .h1, h1.huge, .h1.huge, h1.big, .h1.big, .about .box-70 .info-70 h3.h1:nth:child(2) { font-size: 52px; margin-bottom: 20px; } p.hero { font-size: 32px; } h1.small, .h1.small, .support-content ul li p.h1, .about .box-70 .info-70 p.h1:nth-child(3), .notator-cloud-feature ul.grid-73 li div p.h1:last-child { font-size: 40px; } .mobileCrop { margin: 0 !important; } .mobileCropBottom { margin-bottom: 0 !important; } .mobileCropTop { margin-top: 0 !important; } .mobileCropLeft { margin-left: 0 !important; } .mobileCropRight { margin-right: 0 !important; } }
 
 @media (max-width: 319px) { h1.huge, .h1.huge, h1.big, .h1.big, .about .box-70 .info-70 h3.h1:nth:child(2) { font-size: 50px; } }
 
@@ -1564,7 +1564,7 @@ body { font-size: 16px; }
 
 .article p.small, .article .support-content ul li p, .support-content ul li .article p, .article .about .box-70 .info-70 p:nth-child(3), .about .box-70 .info-70 .article p:nth-child(3), .article .notator-cloud-feature ul.grid-73 li div p:last-child, .notator-cloud-feature ul.grid-73 li div .article p:last-child, .article .p.small, .article .privacy-policy ul li.small, .privacy-policy ul .article li.small, .article .p:not(.hero) + p.small, .article p:not(.hero) + p.small { font-size: 3rem; line-height: 4rem; margin-top: 1rem; padding-top: 0.9335rem; padding-bottom: 0.0665rem; margin-bottom: 0rem; }
 
-.article p.hero, .article .notator-intro .post-content .ae-2 p, .notator-intro .post-content .ae-2 .article p, .article .p.hero, .article .privacy-policy ul li.hero, .privacy-policy ul .article li.hero, .article .p:not(.hero) + p.hero, .article p:not(.hero) + p.hero { font-size: 5rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 3rem; font-weight: 300; letter-spacing: -0.16rem; }
+.article p.hero, .article .p.hero, .article .privacy-policy ul li.hero, .privacy-policy ul .article li.hero, .article .p:not(.hero) + p.hero, .article p:not(.hero) + p.hero { font-size: 5rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 3rem; font-weight: 300; letter-spacing: -0.16rem; }
 
 .article strong { font-weight: 600; }
 
@@ -2266,7 +2266,7 @@ html:not(.page-loaded) .dialog { transform: scale(0.5) translateY(100%); opacity
 
 .dialog .title.uppercase { font-size: 17px; text-transform: uppercase; letter-spacing: 2.5px; }
 
-.dialog .hero, .dialog .notator-intro .post-content .ae-2 p, .notator-intro .post-content .ae-2 .dialog p { font-weight: 200; font-size: 26px; letter-spacing: -0.02em; line-height: 1.36; margin-bottom: 20px; }
+.dialog .hero { font-weight: 200; font-size: 26px; letter-spacing: -0.02em; line-height: 1.36; margin-bottom: 20px; }
 
 .dialog ul { display: table; width: 100%; font-size: 0; font-weight: 600; box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1) inset; }
 
@@ -3386,7 +3386,7 @@ body, html { background: #000; }
 
 @media (max-width: 1023px) { .side.left, .support-content ul.side { display: none; } }
 
-.scrollable .h1, .scrollable h1 { font-size: 8.4rem; line-height: 10rem; margin-top: 8rem; padding-top: 0.0138rem; padding-bottom: 0.9862rem; margin-bottom: 1rem; }
+.scrollable .h1, .scrollable h1 { font-size: 8.4rem; line-height: 10rem; margin-top: 4rem; padding-top: 0.0138rem; padding-bottom: 0.9862rem; margin-bottom: 1rem; }
 
 .scrollable .h1.small, .scrollable .support-content ul li p.h1, .support-content ul li .scrollable p.h1, .scrollable .about .box-70 .info-70 p.h1:nth-child(3), .about .box-70 .info-70 .scrollable p.h1:nth-child(3), .scrollable .notator-cloud-feature ul.grid-73 li div p.h1:last-child, .notator-cloud-feature ul.grid-73 li div .scrollable p.h1:last-child, .scrollable h1.small { font-size: 6.4rem; line-height: 6rem; margin-top: 3rem; padding-top: 0.7248rem; padding-bottom: 0.2752rem; margin-bottom: 2rem; }
 
@@ -3422,7 +3422,13 @@ body, html { background: #000; }
 
 .scrollable p.small, .scrollable .support-content ul li p, .support-content ul li .scrollable p, .scrollable .about .box-70 .info-70 p:nth-child(3), .about .box-70 .info-70 .scrollable p:nth-child(3), .scrollable .notator-cloud-feature ul.grid-73 li div p:last-child, .notator-cloud-feature ul.grid-73 li div .scrollable p:last-child, .scrollable .p.small, .scrollable .privacy-policy ul li.small, .privacy-policy ul .scrollable li.small, .scrollable .p:not(.hero) + p.small, .scrollable p:not(.hero) + p.small { font-size: 3rem; line-height: 4rem; margin-top: 1rem; padding-top: 0.9335rem; padding-bottom: 0.0665rem; margin-bottom: 0rem; }
 
-.scrollable p.hero, .scrollable .notator-intro .post-content .ae-2 p, .notator-intro .post-content .ae-2 .scrollable p, .scrollable .p.hero, .scrollable .privacy-policy ul li.hero, .privacy-policy ul .scrollable li.hero, .scrollable .p:not(.hero) + p.hero, .scrollable p:not(.hero) + p.hero { font-size: 5rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 3rem; font-weight: 300; letter-spacing: -0.16rem; }
+.scrollable p.hero, .scrollable .p.hero, .scrollable .privacy-policy ul li.hero, .privacy-policy ul .scrollable li.hero, .scrollable .p:not(.hero) + p.hero, .scrollable p:not(.hero) + p.hero { font-size: 5rem; line-height: 6rem; margin-top: 2rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 3rem; font-weight: 300; letter-spacing: -0.16rem; }
+
+.notator-intro .ae-2 { display: block; margin: 1em auto 2em; }
+
+.notator-intro .post-content h1 { margin-top: 1em; }
+
+.notator-intro .content { background: #020024; background: linear-gradient(180deg, #020024 0%, black 0%, #4d4d4d 100%); }
 
 .scrollable .notator-intro .container .wrap:not(.noSpaces), .scrollable .notator-intro .container .wrap.spaceWrap, .scrollable .notator-intro .container .wrap .spaceWrap { padding-top: calc(15% + 50px); }
 
@@ -3459,6 +3465,8 @@ body:not(.scroll) .about .container .wrap:not(.noSpaces), body:not(.scroll) .abo
 .scrollable .support-content ul li h3 { font-size: 1.35em; line-height: 1.2em; }
 
 .scrollable .support-content ul li p { font-size: 1.3em; line-height: 1.2em; }
+
+.career-detail-page { background: #000; }
 
 .career-detail-page .container .wrap:not(.noSpaces), .career-detail-page .container .wrap.spaceWrap, .career-detail-page .container .wrap .spaceWrap { padding: calc(5.56% + 50px) calc(2% + 15px); }
 

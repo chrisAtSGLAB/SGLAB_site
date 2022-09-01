@@ -14,6 +14,7 @@ Enabling you - the annotator
 </h1>
 <div class="ae-2 fromLeft" markdown="1">
 
-**Notator** provides all you need to get annotating quickly on anything.
-  
+**Notator** provides all that you need to get annotating on anything and everything.
+
+
 </div>
