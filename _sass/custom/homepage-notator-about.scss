@@ -8,6 +8,7 @@
 	}
 
 	.box-70 {
+		overflow: hidden;
 		.thumbnail-70 {
 			& > * {
 				@extend .wide;
@@ -28,20 +29,24 @@
 			p:nth-child(3) {
 				@extend .small;
 				@extend .equalElement;
+				margin-bottom: 1em !important;
 			}
 
 			p:nth-child(4) {
 				@extend .button;
-				@extend .blue;
 				@extend .wide;
 				@extend .crop;
+
+				color: #000;
+				background: none;
+				border: 1px solid #000;
+
 			}
 		}
 
 		&:hover {
 			.info-70 p:nth-child(4) {
-				@extend .button;
-				color: #fff !important;
+				box-shadow: 0 0px 0 rgba(0, 0, 0, 0.075), 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
 			}
 		}
 	}
@@ -57,13 +62,55 @@
 
 			.info-70 {
 				padding: 40px 30px 10px;
+
+				@media (max-width: 1023px) {
+					padding: 40px 30px 30px;
+				}
+			}
+
+
+		}
+
+		.thumbnail-70 {
+			padding-bottom: 0;
+			position: relative;
+
+			img {
+				max-width: initial;
+				position: absolute;
+				right: 0;
+
+				@media (max-width: 1023px) {
+					right: -550px;
+				}
 			}
 		}
 
+		.info-70 {
 
-			letter-spacing: initial;
+		}
 
 
+		letter-spacing: initial;
+	}
+
+	ul {
+		li:nth-child(1) {
+			.box-70, .box-70:hover,
+			.info-70 p:nth-child(4), .info-70 p:nth-child(4):hover { background-color: #ADB5FF !important; }
+		}
+		li:nth-child(2) {
+			.box-70, .box-70:hover,
+			.info-70 p:nth-child(4), .info-70 p:nth-child(4):hover { background-color: #FFF3C8 !important; }
+		}
+		li:nth-child(3) {
+			.box-70, .box-70:hover,
+			.info-70 p:nth-child(4), .info-70 p:nth-child(4):hover { background-color: #C5F8FF !important; }
+		}
+		li:nth-child(4) {
+			.box-70, .box-70:hover,
+			.info-70 p:nth-child(4), .info-70 p:nth-child(4):hover { background-color: #CBF0CF !important; }
+		}
 	}
 }
 
