@@ -3392,9 +3392,9 @@ body, html { background: #000; }
 
 .scrollable .h1.large, .scrollable h1.large { font-size: 9.6rem; line-height: 10rem; margin-top: 7rem; padding-top: 0.5872rem; padding-bottom: 0.4128rem; margin-bottom: 4rem; }
 
-.scrollable .h1.huge, .scrollable h1.huge { font-size: 14.6rem; line-height: 15rem; margin-top: 10rem; padding-top: 0.3097rem; padding-bottom: 0.6903rem; margin-bottom: 3rem; }
+.scrollable .h1.huge, .scrollable h1.huge { font-size: 12rem; line-height: 15rem; margin-top: 10rem; padding-top: 0.234rem; padding-bottom: 0.766rem; margin-bottom: 3rem; }
 
-.scrollable .h2, .scrollable h2 { font-size: 7.4rem; line-height: 8rem; margin-top: 6rem; padding-top: 0.3693rem; padding-bottom: 0.6307rem; margin-bottom: 1rem; }
+.scrollable .h2, .scrollable h2 { font-size: 5rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.2225rem; padding-bottom: 0.7775rem; margin-bottom: 0rem; }
 
 .scrollable .h2.small, .scrollable .support-content ul li p.h2, .support-content ul li .scrollable p.h2, .scrollable .about .box-70 .info-70 p.h2:nth-child(3), .about .box-70 .info-70 .scrollable p.h2:nth-child(3), .scrollable .notator-cloud-feature ul.grid-73 li div p.h2:last-child, .notator-cloud-feature ul.grid-73 li div .scrollable p.h2:last-child, .scrollable h2.small { font-size: 5.6rem; line-height: 6rem; margin-top: 4rem; padding-top: 0.0092rem; padding-bottom: 0.9908rem; margin-bottom: -1rem; }
 
@@ -3458,11 +3458,11 @@ body:not(.scroll) .about .container .wrap:not(.noSpaces), body:not(.scroll) .abo
 
 .career-detail-page .pad ul { list-style: none; }
 
-.career-detail-page .pad ul li { font-size: 3.5rem; line-height: 5rem; margin-top: 0rem; padding-top: 0.25575rem; padding-bottom: 0.74425rem; margin-bottom: 1rem; text-rendering: optimizeLegibility; opacity: 0.8; margin-bottom: .05em; }
+.career-detail-page .pad ul li { font-size: 3rem; line-height: 4rem; margin-top: 1rem; padding-top: 0.9335rem; padding-bottom: 0.0665rem; margin-bottom: 2rem; text-rendering: optimizeLegibility; opacity: 0.8; margin-bottom: .05em; }
 
 .career-detail-page .pad ul li:before { content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */ color: red; /* Change the color */ font-weight: bold; /* If you want it to be bold */ display: inline-block; /* Needed to add space between the bullet and the text */ width: 1em; /* Also needed for space (tweak if needed) */ margin-left: -1em; /* Also needed for space (tweak if needed) */ position: relative; left: 0.25em; }
 
-.career-detail-page .pad ul + h2 { margin-top: 0.5em; }
+.career-detail-page .pad ul + h2 { margin-top: 1em; }
 
 .career-detail-page p + h2 { margin-top: 0.5em; }
 

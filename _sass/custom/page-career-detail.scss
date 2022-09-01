@@ -1,8 +1,4 @@
-@include plumber-set-defaults(
-	$font-size: 1,
-	$baseline: $body-baseline,
-	$grid-height: $gh
-);
+
 
 .career-detail-page {
 	.container .wrap:not(.noSpaces), .container .wrap.spaceWrap, .container .wrap .spaceWrap {
@@ -13,9 +9,9 @@
 			list-style: none;
 			li {
 				@include plumber(
-					$font-size: 3.5,
-					$line-height: 5,
-					$leading-top: 0,
+					$font-size: 3,
+					$line-height: 4,
+					$leading-top: 2,
 					$leading-bottom: 2,
 					$baseline: $body-baseline
 				);
@@ -37,7 +33,7 @@
 			}
 
 			& + h2 {
-				margin-top: 0.5em;
+				margin-top: 1em;
 			}
 		}
 	}
@@ -45,5 +41,4 @@
 	p + h2 {
 		margin-top: 0.5em;
 	}
-
 }
