@@ -3470,9 +3470,9 @@ body, html { background: #000; }
 
 @media (max-width: 1023px) { .about .address .box-70 .info-70 { padding: 40px 30px 30px; } }
 
-.about .address .thumbnail-70 { padding-bottom: 0; position: relative; z-index: 0; height: fit-content; width: auto; }
+.about .address .thumbnail-70 { padding-bottom: 0; position: relative; }
 
-.about .address .thumbnail-70 img { max-width: initial; position: absolute; right: 0; }
+.about .address .thumbnail-70 img { max-width: initial; position: absolute; right: 0; z-index: 0; height: fit-content; width: auto; }
 
 @media (max-width: 1023px) { .about .address .thumbnail-70 img { right: -550px; } }
 
