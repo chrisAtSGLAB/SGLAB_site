@@ -3470,7 +3470,7 @@ body, html { background: #000; }
 
 @media (max-width: 1023px) { .about .address .box-70 .info-70 { padding: 40px 30px 30px; } }
 
-.about .address .thumbnail-70 { padding-bottom: 0; position: relative; z-index: 0; }
+.about .address .thumbnail-70 { padding-bottom: 0; position: relative; z-index: 0; height: fit-content; width: auto; }
 
 .about .address .thumbnail-70 img { max-width: initial; position: absolute; right: 0; }
 
@@ -3519,3 +3519,5 @@ body:not(.scroll) .about .container .wrap:not(.noSpaces), body:not(.scroll) .abo
 .privacy-policy cite { font-size: .8em; }
 
 .privacy-policy cite + cite { display: block; }
+
+/*# sourceMappingURL=main.css.map */
