@@ -1,4 +1,8 @@
 .about {
+	.content {
+		overflow: scroll;
+	}
+
 	.container .wrap {
 		&:not(.noSpaces),
 		&.spaceWrap,

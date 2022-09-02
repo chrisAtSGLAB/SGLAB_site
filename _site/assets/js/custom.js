@@ -3,8 +3,8 @@ var root = document.getElementsByTagName( 'html' )[0]; // '0' to assign the firs
 
 function classChange() {
 	console.log('=======classChange');
-	if ($(window).width() < 1024) {
-		console.log('Less than 1024');
+	if ($(window).width() < 1081) {
+		console.log('Less than 1081');
 
 		document.body.classList.remove('zen');
 		document.body.classList.remove('animated');
@@ -14,7 +14,7 @@ function classChange() {
 		document.body.classList.add('scroll');
 
 	} else {
-		console.log('greater than 1024');
+		console.log('greater than 1080');
 
 		document.body.classList.add('zen');
 		document.body.classList.add('animated');

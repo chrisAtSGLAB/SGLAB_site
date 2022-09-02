@@ -3382,9 +3382,11 @@ body, html { background: #000; }
 
 .scrollable .homepage .panel.top { background: rgba(0, 0, 0, 0.3); backdrop-filter: saturate(80%) blur(20px); -webkit-backdrop-filter: saturate(80%) blur(20px); transition-timing-function: cubic-bezier(0.55, 0.05, 0.35, 0.95) !important; }
 
+.scrollable .panel.bottom .nextSlide, .scrollable .panel.bottom .prevSlide { display: none; }
+
 .sidebar { background: rgba(0, 0, 0, 0.3); backdrop-filter: saturate(80%) blur(20px); -webkit-backdrop-filter: saturate(80%) blur(20px); }
 
-@media (max-width: 1023px) { .side.left, .support-content ul.side { display: none; } }
+@media (max-width: 1081px) { .side.left, .support-content ul.side { display: none; } }
 
 .scrollable .h1, .scrollable h1 { font-size: 8.4rem; line-height: 10rem; margin-top: 4rem; padding-top: 0.0138rem; padding-bottom: 0.9862rem; margin-bottom: 1rem; }
 
@@ -3428,7 +3430,7 @@ body, html { background: #000; }
 
 .notator-intro .post-content h1 { margin-top: 1em; }
 
-.notator-intro .content { /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,777777+100 */ background-color: #000000; /* Old browsers */ background: linear-gradient(to bottom, #000000 0%, #777777 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#777777',GradientType=0 ); /* IE6-9 */ }
+.notator-intro .content { /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,777777+100 */ }
 
 .scrollable .notator-intro .container .wrap:not(.noSpaces), .scrollable .notator-intro .container .wrap.spaceWrap, .scrollable .notator-intro .container .wrap .spaceWrap { padding-top: calc(15% + 50px); }
 
@@ -3443,6 +3445,8 @@ body, html { background: #000; }
 .notator-cloud-feature ul.grid-73 li div p:last-child { margin-top: 0 !important; }
 
 @media (max-width: 1024px) { .notator-cloud-feature .grid > .col-4-12 { max-width: 100%; text-align: left; } .notator-cloud-feature .grid > .col-4-12 i { margin-bottom: 0; } .notator-cloud-feature .grid > .col-4-12 h3 { margin-top: 0; } }
+
+.about .content { overflow: scroll; }
 
 .about .container .wrap:not(.noSpaces), .about .container .wrap.spaceWrap, .about .container .wrap .spaceWrap { padding-bottom: calc(5.56% + 50px); }
 
